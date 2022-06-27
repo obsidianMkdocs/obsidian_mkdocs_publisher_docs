@@ -8,7 +8,7 @@ I, as working on my blog, created some cool snippets or useful tools.
 
 Automatically convert the [grid callout layout (from ITS)](https://github.com/SlRvb/Obsidian--ITS-Theme/blob/main/S%20-%20Callouts.css) to mkdocs
 
-![[example_grid_layout.png]]
+![[../assets/img/example_grid_layout.png]]
 
 Add this to [`custom_attribute.css`](https://github.com/Mara-Li/obsidian-mkdocs-publisher-template/blob/main/docs/assets/css/custom_attributes.css)
 
