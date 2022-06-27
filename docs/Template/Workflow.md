@@ -21,7 +21,7 @@ You can also run manually the convertor using `Publisher Manual` (in the `manual
 > 2. You will see the list of the actions on your repository. Click on **publisher manual**.
 > 3. Click on **run workflow** 
 > 4. The run ask you for the file(s) you want to convert. You can convert multiple files using a [glob pattern](https://en.wikipedia.org/wiki/Glob_(programming)), like a folder or commune name. Each markdown file found will be converted by `obs2mk`. 
-> ![[assets/img/demo.gif]]
+> ![[../assets/img/demo.gif]]
 
 Note that you can also trigger the workflow using [Github CLI](https://cli.github.com/) using `gh workflow run manual_run.yml file=your_file`
 
