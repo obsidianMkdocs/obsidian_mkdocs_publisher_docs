@@ -6,8 +6,8 @@ share: true
 > The github actions will only convert hashtags and convertion to Admonition mkdocs callouts. Now, two mkdocs plugin handle this, so you don't need (normally) to use obs2mk in minimal configuration anymore. 
 >
 >The plugins are :
->	- [Mkdocs Callouts](https://github.com/sondregronas/mkdocs-callouts)
->	- [Custom Tags Attributes](https://github.com/Mara-Li/mkdocs-custom-tags-attributes)
+>- [Mkdocs Callouts](https://github.com/sondregronas/mkdocs-callouts)
+>- [Custom Tags Attributes](https://github.com/Mara-Li/mkdocs-custom-tags-attributes)
 >
 > These two plugin will never change the file send in Github, because the edition happend during the page build. 
 
