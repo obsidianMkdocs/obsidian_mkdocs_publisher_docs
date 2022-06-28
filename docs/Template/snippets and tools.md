@@ -4,7 +4,8 @@ share: true
 
 I, as working on my blog, created some cool snippets or useful tools.
 
-# Grid CSS snippets
+## CSS snippets
+### Grid CSS snippets
 
 Automatically convert the [grid callout layout (from ITS)](https://github.com/SlRvb/Obsidian--ITS-Theme/blob/main/S%20-%20Callouts.css) to mkdocs
 
@@ -37,7 +38,7 @@ Add this to [`custom_attribute.css`](https://github.com/Mara-Li/obsidian-mkdocs-
 }
 ```
 
-# Add a image banner to mkdocs
+### Add a image banner to mkdocs
 
 ![image](https://user-images.githubusercontent.com/30244939/163732766-d08b102f-508b-496e-a99f-68f865b2080b.png)
 
@@ -49,7 +50,12 @@ You can add a cool image banner with editing [`utils.css`](https://github.com/Ma
 ```
 Don't forget to edit the `image_link` with the real links ! Personnaly, I use a unsplash image.
 
-# Convert code blocks to markdown
+## Plugins
+
+> [!note] Note
+> Don't forget to add the plugin in your `requirements.txt`
+
+### Custom fences
 
 Some Obsidian's plugin use codeblocks to do some things, as [Agtable](https://github.com/windily-cloud/obsidian-AGtable) or [Table extended](https://github.com/aidenlx/table-extended)
 
@@ -75,21 +81,17 @@ For example, for AGtable :
           format: !!python/name:mkdocs_custom_fences.md_render.md_sub_render
 ```
 
-## Mkdocs plugins
 
-> [!note] Note
-> Don't forget to add the plugin in your `requirements.txt`
-
-# [Mkdocs Callouts](https://pypi.org/project/mkdocs-callouts/)
+### [Mkdocs Callouts](https://pypi.org/project/mkdocs-callouts/)
 
 > [!info] Plugin's info
 > A simple plugin that converts Obsidian style callouts and turns them into mkdocs supported Admonitions.
 > - Plugin link : https://pypi.org/project/mkdocs-callouts/
 > - Installation : `pip install mkdocs-callouts`
 
-Use this plugin if you don't want to use the script (in github actions or in general)
+Use this plugin if you don't want to use the script (in github actions or in general). It supports "callouts in callout", custom callouts... 
 
-# Page encrypted 
+### Page encrypted 
 
 > [!note] The basic configuration for Material & this template are already included in the `mkdocs.yml` and in `utils.css`
 
@@ -154,3 +156,16 @@ To add a unique page encrypted, just add `password: your_secret_password` in you
 > [!warning] Security
 > Obviously, if you use this in a public repo, it's totally useless to add this security (the file can be viewed enterely in GitHub). Don't use this plugin to share sensible information!
 
+## Custom tags attributes
+
+If you don't want to use 
+### [Custom tags attributes](https://pypi.org/project/mkdocs-custom-tags-attributes/)
+
+It will do exactly the same as [[Template/customization#Custom attribute|my obs2mk script]], but without transform the file sended on github. The transformation occures during the page build. 
+
+> [!info] Custom tags attribute
+> Adding [attribute list](https://python-markdown.github.io/extensions/attr_list/) using only hashtags in your text.
+> *Links:* [Custom tags attributes](https://pypi.org/project/mkdocs-custom-tags-attributes/)
+> *Installation:* `pip install mkdocs-custom-tags-attributes`
+
+The combo between mkdocs callouts + custom tags attributes will mimic at 100% obs2mk and accelerate the build process if you use [[../Obsidian Github Publisher/index|Obsidian Github Publisher]]. 
