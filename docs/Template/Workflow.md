@@ -9,6 +9,9 @@ There is a lot of Github Actions here ! First, if you need information on what i
 I will explain everything, don't panik. As you can see, here, the github actions (~ the workflow) are used to build Obsidian To Mkdocs (Or Mkdocs Obsidian Publisher) using file in your repo. 
 
 ## Obsidian Mkdocs Publisher
+
+> [!note] You can totally ignore this if you want to use mkdocs plugin instead. [[Within Obsidian|Please, read here for more informations about the workflow for Obsidian.]]
+
 ### On push
 The main workflow is in `ci.yml` . **It needs a push event where the commit name starts with `[PUBLISHER]`**. After that, it will scan the repository and try to find modified file (since the last commit). After find these file, it will convert it using obs2mk, and build the mkdocs site. 
 
