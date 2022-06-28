@@ -36,7 +36,7 @@ You can create a folder note if you use a `category` front matter key that have 
 
 ## Callout & Admonition
 
-The script support custom admonition. For that, you first need to edit [custom_attributes](https://github.com/Mara-Li/mkdocs_obsidian_template/blob/main/docs/assets/css/custom_attributes.css) with adding the support, as follow in [Admonition's docs](https://squidfunk.github.io/mkdocs-material/reference/admonitions/#customization).
+The script support custom admonition. For that, you first need to edit or create a css file with adding the new admonition, as follow in [Admonition's docs](https://squidfunk.github.io/mkdocs-material/reference/admonitions/#customization).
 For example, to add a `dictionnary` admonition:
 ```css
 :root {
