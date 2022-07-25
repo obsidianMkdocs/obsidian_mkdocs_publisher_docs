@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+    <url>
+         <loc>https://obsidian-publisher.netlify.app/</loc>
+         <lastmod>2022-07-25</lastmod>
+         <changefreq>daily</changefreq>
+         <xhtml:link rel="alternate" hreflang="en" href="https://obsidian-publisher.netlify.app/en/"/>
+         <xhtml:link rel="alternate" hreflang="fr" href="https://obsidian-publisher.netlify.app/fr/"/>
+         
+    </url>
+    <url>
+         <loc>https://obsidian-publisher.netlify.app/Obsidian%20Github%20Publisher/</loc>
+         <lastmod>2022-07-25</lastmod>
+         <changefreq>daily</changefreq>
+         <xhtml:link rel="alternate" hreflang="en" href="https://obsidian-publisher.netlify.app/en/Obsidian%20Github%20Publisher/"/>
+         <xhtml:link rel="alternate" hreflang="fr" href="https://obsidian-publisher.netlify.app/fr/Obsidian%20Github%20Publisher/"/>
+         
+    </url>
+    <url>
+         <loc>https://obsidian-publisher.netlify.app/Obsidian%20Github%20Publisher/Configuration%20example/</loc>
+         <lastmod>2022-07-25</lastmod>
+         <changefreq>daily</changefreq>
+         <xhtml:link rel="alternate" hreflang="en" href="https://obsidian-publisher.netlify.app/en/Obsidian%20Github%20Publisher/Configuration%20example/"/>
+         
+         
+    </url>
+    <url>
+         <loc>https://obsidian-publisher.netlify.app/Python/</loc>
+         <lastmod>2022-07-25</lastmod>
+         <changefreq>daily</changefreq>
+         <xhtml:link rel="alternate" hreflang="en" href="https://obsidian-publisher.netlify.app/en/Python/"/>
+         
+         
+    </url>
+    <url>
+         <loc>https://obsidian-publisher.netlify.app/Python/configuration%20template/</loc>
+         <lastmod>2022-07-25</lastmod>
+         <changefreq>daily</changefreq>
+         <xhtml:link rel="alternate" hreflang="en" href="https://obsidian-publisher.netlify.app/en/Python/configuration%20template/"/>
+         
+         
+    </url>
+    <url>
+         <loc>https://obsidian-publisher.netlify.app/Python/customization/</loc>
+         <lastmod>2022-07-25</lastmod>
+         <changefreq>daily</changefreq>
+         <xhtml:link rel="alternate" hreflang="en" href="https://obsidian-publisher.netlify.app/en/Python/customization/"/>
+         
+         
+    </url>
+    <url>
+         <loc>https://obsidian-publisher.netlify.app/Python/frontmatter/</loc>
+         <lastmod>2022-07-25</lastmod>
+         <changefreq>daily</changefreq>
+         <xhtml:link rel="alternate" hreflang="en" href="https://obsidian-publisher.netlify.app/en/Python/frontmatter/"/>
+         
+         
+    </url>
+    <url>
+         <loc>https://obsidian-publisher.netlify.app/Python/ios/</loc>
+         <lastmod>2022-07-25</lastmod>
+         <changefreq>daily</changefreq>
+         <xhtml:link rel="alternate" hreflang="en" href="https://obsidian-publisher.netlify.app/en/Python/ios/"/>
+         
+         
+    </url>
+    <url>
+         <loc>https://obsidian-publisher.netlify.app/Python/obsidian%20shell/</loc>
+         <lastmod>2022-07-25</lastmod>
+         <changefreq>daily</changefreq>
+         <xhtml:link rel="alternate" hreflang="en" href="https://obsidian-publisher.netlify.app/en/Python/obsidian%20shell/"/>
+         
+         
+    </url>
+    <url>
+         <loc>https://obsidian-publisher.netlify.app/Python/usage/</loc>
+         <lastmod>2022-07-25</lastmod>
+         <changefreq>daily</changefreq>
+         <xhtml:link rel="alternate" hreflang="en" href="https://obsidian-publisher.netlify.app/en/Python/usage/"/>
+         
+         
+    </url>
+    <url>
+         <loc>https://obsidian-publisher.netlify.app/Python/workflows/</loc>
+         <lastmod>2022-07-25</lastmod>
+         <changefreq>daily</changefreq>
+         <xhtml:link rel="alternate" hreflang="en" href="https://obsidian-publisher.netlify.app/en/Python/workflows/"/>
+         
+         
+    </url>
+    <url>
+         <loc>https://obsidian-publisher.netlify.app/Template/</loc>
+         <lastmod>2022-07-25</lastmod>
+         <changefreq>daily</changefreq>
+         <xhtml:link rel="alternate" hreflang="en" href="https://obsidian-publisher.netlify.app/en/Template/"/>
+         <xhtml:link rel="alternate" hreflang="fr" href="https://obsidian-publisher.netlify.app/fr/Template/"/>
+         
+    </url>
+    <url>
+         <loc>https://obsidian-publisher.netlify.app/Template/Q%26A/</loc>
+         <lastmod>2022-07-25</lastmod>
+         <changefreq>daily</changefreq>
+         <xhtml:link rel="alternate" hreflang="en" href="https://obsidian-publisher.netlify.app/en/Template/Q%26A/"/>
+         <xhtml:link rel="alternate" hreflang="fr" href="https://obsidian-publisher.netlify.app/fr/Template/Q%26A/"/>
+         
+    </url>
+    <url>
+         <loc>https://obsidian-publisher.netlify.app/Template/Within%20Obsidian/</loc>
+         <lastmod>2022-07-25</lastmod>
+         <changefreq>daily</changefreq>
+         <xhtml:link rel="alternate" hreflang="en" href="https://obsidian-publisher.netlify.app/en/Template/Within%20Obsidian/"/>
+         <xhtml:link rel="alternate" hreflang="fr" href="https://obsidian-publisher.netlify.app/fr/Template/Within%20Obsidian/"/>
+         
+    </url>
+    <url>
+         <loc>https://obsidian-publisher.netlify.app/Template/Workflow/</loc>
+         <lastmod>2022-07-25</lastmod>
+         <changefreq>daily</changefreq>
+         <xhtml:link rel="alternate" hreflang="en" href="https://obsidian-publisher.netlify.app/en/Template/Workflow/"/>
+         <xhtml:link rel="alternate" hreflang="fr" href="https://obsidian-publisher.netlify.app/fr/Template/Workflow/"/>
+         
+    </url>
+    <url>
+         <loc>https://obsidian-publisher.netlify.app/Template/customization/</loc>
+         <lastmod>2022-07-25</lastmod>
+         <changefreq>daily</changefreq>
+         <xhtml:link rel="alternate" hreflang="en" href="https://obsidian-publisher.netlify.app/en/Template/customization/"/>
+         <xhtml:link rel="alternate" hreflang="fr" href="https://obsidian-publisher.netlify.app/fr/Template/customization/"/>
+         
+    </url>
+    <url>
+         <loc>https://obsidian-publisher.netlify.app/Template/limitations/</loc>
+         <lastmod>2022-07-25</lastmod>
+         <changefreq>daily</changefreq>
+         <xhtml:link rel="alternate" hreflang="en" href="https://obsidian-publisher.netlify.app/en/Template/limitations/"/>
+         <xhtml:link rel="alternate" hreflang="fr" href="https://obsidian-publisher.netlify.app/fr/Template/limitations/"/>
+         
+    </url>
+    <url>
+         <loc>https://obsidian-publisher.netlify.app/Template/snippets%20and%20tools/</loc>
+         <lastmod>2022-07-25</lastmod>
+         <changefreq>daily</changefreq>
+         <xhtml:link rel="alternate" hreflang="en" href="https://obsidian-publisher.netlify.app/en/Template/snippets%20and%20tools/"/>
+         <xhtml:link rel="alternate" hreflang="fr" href="https://obsidian-publisher.netlify.app/fr/Template/snippets%20and%20tools/"/>
+         
+    </url>
+    <url>
+         <loc>https://obsidian-publisher.netlify.app/Template/useful%20plugins/</loc>
+         <lastmod>2022-07-25</lastmod>
+         <changefreq>daily</changefreq>
+         <xhtml:link rel="alternate" hreflang="en" href="https://obsidian-publisher.netlify.app/en/Template/useful%20plugins/"/>
+         <xhtml:link rel="alternate" hreflang="fr" href="https://obsidian-publisher.netlify.app/fr/Template/useful%20plugins/"/>
+         
+    </url>
+    <url>
+         <loc>https://obsidian-publisher.netlify.app/notes/</loc>
+         <lastmod>2022-07-25</lastmod>
+         <changefreq>daily</changefreq>
+         <xhtml:link rel="alternate" hreflang="en" href="https://obsidian-publisher.netlify.app/en/notes/"/>
+         
+         
+    </url>
+    <url>
+         <loc>https://obsidian-publisher.netlify.app/notes/note3/</loc>
+         <lastmod>2022-07-25</lastmod>
+         <changefreq>daily</changefreq>
+         <xhtml:link rel="alternate" hreflang="en" href="https://obsidian-publisher.netlify.app/en/notes/note3/"/>
+         
+         
+    </url>
+    <url>
+         <loc>https://obsidian-publisher.netlify.app/notes/obsidian%20example/</loc>
+         <lastmod>2022-07-25</lastmod>
+         <changefreq>daily</changefreq>
+         <xhtml:link rel="alternate" hreflang="en" href="https://obsidian-publisher.netlify.app/en/notes/obsidian%20example/"/>
+         
+         
+    </url>
+</urlset>

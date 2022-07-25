@@ -1,0 +1,554 @@
+
+<!DOCTYPE html>
+
+<html class="no-js" lang="fr">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width,initial-scale=1" name="viewport"/>
+<meta content="The documentation for Obsidian Mkdocs Publisher" name="description"/>
+<link href="https://obsidian-publisher.netlify.app/fr/Template/customization/" rel="canonical"/>
+<link href="../../../assets/logo/favicons.png" rel="icon"/>
+<meta content="mkdocs-1.3.1, mkdocs-material-8.3.9" name="generator"/>
+<title>Personnalisation - Obsidian Mkdocs Publisher</title>
+<link href="../../../assets/stylesheets/main.1d29e8d0.min.css" rel="stylesheet"/>
+<link href="../../../assets/stylesheets/palette.cbb835fc.min.css" rel="stylesheet"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css?family=Ubuntu:300,300i,400,400i,700,700i%7CUbuntu+Mono:400,400i,700,700i&amp;display=fallback" rel="stylesheet"/>
+<style>:root{--md-text-font:"Ubuntu";--md-code-font:"Ubuntu Mono"}</style>
+<link href="../../../assets/css/img-grids-floats.css" rel="stylesheet"/>
+<link href="../../../assets/css/utils.css" rel="stylesheet"/>
+<link href="../../../assets/css/custom_attributes.css" rel="stylesheet"/>
+<link href="../../../assets/css/tooltipster.bundle.min.css" rel="stylesheet"/>
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet"/>
+<script>__md_scope=new URL("../../..",location),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script>
+    $(document).ready(function () {
+      $('.link-tooltip').tooltipster();
+    });
+  </script>
+<link crossorigin="anonymous" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA==" referrerpolicy="no-referrer" rel="stylesheet"/>
+<meta content="Personnalisation" property="og:title"/>
+<meta content="Personnalisation" name="twitter:title"/>
+<meta content="The documentation for Obsidian Mkdocs Publisher" name="og:description"/>
+<meta content="The documentation for Obsidian Mkdocs Publisher" name="twitter:description"/>
+<meta content="summary_large_image" name="twitter:card"/>
+<meta content="https://obsidian-publisher.netlify.app/" property="og:image"/>
+<meta content="https://obsidian-publisher.netlify.app/" name="twitter:image"/>
+</head>
+<body data-md-color-accent="light-blue" data-md-color-primary="teal" data-md-color-scheme="default" dir="ltr">
+<script>var palette=__md_get("__palette");if(palette&&"object"==typeof palette.color)for(var key of Object.keys(palette.color))document.body.setAttribute("data-md-color-"+key,palette.color[key])</script>
+<input autocomplete="off" class="md-toggle" data-md-toggle="drawer" id="__drawer" type="checkbox"/>
+<input autocomplete="off" class="md-toggle" data-md-toggle="search" id="__search" type="checkbox"/>
+<label class="md-overlay" for="__drawer"></label>
+<div data-md-component="skip">
+<a class="md-skip" href="#attributs-customises-et-tags">
+          Aller au contenu
+        </a>
+</div>
+<div data-md-component="announce">
+</div>
+<header class="md-header md-header--lifted" data-md-component="header">
+<nav aria-label="En-tête" class="md-header__inner md-grid">
+<a aria-label="Obsidian Mkdocs Publisher" class="md-header__button md-logo" data-md-component="logo" href="../../.." title="Obsidian Mkdocs Publisher">
+<img alt="logo" src="../../../assets/logo/favicons.png"/>
+</a>
+<label class="md-header__button md-icon" for="__drawer">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2Z"></path></svg>
+</label>
+<div class="md-header__title" data-md-component="header-title">
+<div class="md-header__ellipsis">
+<div class="md-header__topic">
+<span class="md-ellipsis">
+            Obsidian Mkdocs Publisher
+          </span>
+</div>
+<div class="md-header__topic" data-md-component="header-topic">
+<span class="md-ellipsis">
+            
+              Personnalisation
+            
+          </span>
+</div>
+</div>
+</div>
+<form class="md-header__option" data-md-component="palette">
+<input aria-label="Switch to dark mode" class="md-option" data-md-color-accent="light-blue" data-md-color-media="(prefers-color-scheme: light)" data-md-color-primary="teal" data-md-color-scheme="default" id="__palette_1" name="__palette" type="radio"/>
+<label class="md-header__button md-icon" for="__palette_2" hidden="" title="Switch to dark mode">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M17 6H7c-3.31 0-6 2.69-6 6s2.69 6 6 6h10c3.31 0 6-2.69 6-6s-2.69-6-6-6zm0 10H7c-2.21 0-4-1.79-4-4s1.79-4 4-4h10c2.21 0 4 1.79 4 4s-1.79 4-4 4zM7 9c-1.66 0-3 1.34-3 3s1.34 3 3 3 3-1.34 3-3-1.34-3-3-3z"></path></svg>
+</label>
+<input aria-label="Switch to light mode" class="md-option" data-md-color-accent="indigo" data-md-color-media="(prefers-color-scheme: dark)" data-md-color-primary="blue" data-md-color-scheme="slate" id="__palette_2" name="__palette" type="radio"/>
+<label class="md-header__button md-icon" for="__palette_1" hidden="" title="Switch to light mode">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M17 7H7a5 5 0 0 0-5 5 5 5 0 0 0 5 5h10a5 5 0 0 0 5-5 5 5 0 0 0-5-5m0 8a3 3 0 0 1-3-3 3 3 0 0 1 3-3 3 3 0 0 1 3 3 3 3 0 0 1-3 3Z"></path></svg>
+</label>
+</form>
+<div class="md-header__option">
+<div class="md-select">
+<button aria-label="Sélectionner la langue" class="md-header__button md-icon">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="m12.87 15.07-2.54-2.51.03-.03A17.52 17.52 0 0 0 14.07 6H17V4h-7V2H8v2H1v2h11.17C11.5 7.92 10.44 9.75 9 11.35 8.07 10.32 7.3 9.19 6.69 8h-2c.73 1.63 1.73 3.17 2.98 4.56l-5.09 5.02L4 19l5-5 3.11 3.11.76-2.04M18.5 10h-2L12 22h2l1.12-3h4.75L21 22h2l-4.5-12m-2.62 7 1.62-4.33L19.12 17h-3.24Z"></path></svg>
+</button>
+<div class="md-select__inner">
+<ul class="md-select__list">
+<li class="md-select__item">
+<a class="md-select__link" href="../../../" hreflang="en">
+                    English
+                  </a>
+</li>
+<li class="md-select__item">
+<a class="md-select__link" href="../../" hreflang="fr">
+                    Français
+                  </a>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<label class="md-header__button md-icon" for="__search">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"></path></svg>
+</label>
+<div class="md-search" data-md-component="search" role="dialog">
+<label class="md-search__overlay" for="__search"></label>
+<div class="md-search__inner" role="search">
+<form class="md-search__form" name="search">
+<input aria-label="Rechercher" autocapitalize="off" autocomplete="off" autocorrect="off" class="md-search__input" data-md-component="search-query" name="query" placeholder="Rechercher" required="" spellcheck="false" type="text"/>
+<label class="md-search__icon md-icon" for="__search">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"></path></svg>
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"></path></svg>
+</label>
+<nav aria-label="Search" class="md-search__options">
+<button aria-label="Effacer" class="md-search__icon md-icon" tabindex="-1" type="reset">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41Z"></path></svg>
+</button>
+</nav>
+<div class="md-search__suggest" data-md-component="search-suggest"></div>
+</form>
+<div class="md-search__output">
+<div class="md-search__scrollwrap" data-md-scrollfix="">
+<div class="md-search-result" data-md-component="search-result">
+<div class="md-search-result__meta">
+            Initialisation de la recherche
+          </div>
+<ol class="md-search-result__list"></ol>
+</div>
+</div>
+</div>
+</div>
+</div>
+</nav>
+<nav aria-label="Onglets" class="md-tabs" data-md-component="tabs">
+<div class="md-tabs__inner md-grid">
+<ul class="md-tabs__list">
+<li class="md-tabs__item">
+<a class="md-tabs__link" href="../../">
+      Home
+    </a>
+</li>
+<li class="md-tabs__item">
+<a class="md-tabs__link" href="../../Obsidian%20Github%20Publisher/">
+        Obsidian Github Publisher
+      </a>
+</li>
+<li class="md-tabs__item">
+<a class="md-tabs__link md-tabs__link--active" href="../">
+        Le modèle du blog
+      </a>
+</li>
+</ul>
+</div>
+</nav>
+</header>
+<div class="md-container" data-md-component="container">
+<main class="md-main" data-md-component="main">
+<div class="md-main__inner md-grid">
+<div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation">
+<div class="md-sidebar__scrollwrap">
+<div class="md-sidebar__inner">
+<nav aria-label="Navigation" class="md-nav md-nav--primary md-nav--lifted" data-md-level="0">
+<label class="md-nav__title" for="__drawer">
+<a aria-label="Obsidian Mkdocs Publisher" class="md-nav__button md-logo" data-md-component="logo" href="../../.." title="Obsidian Mkdocs Publisher">
+<img alt="logo" src="../../../assets/logo/favicons.png"/>
+</a>
+    Obsidian Mkdocs Publisher
+  </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../">
+        Home
+      </a>
+</li>
+<li class="md-nav__item md-nav__item--nested">
+<input checked="" class="md-nav__toggle md-toggle md-toggle--indeterminate" data-md-toggle="__nav_2" id="__nav_2" type="checkbox"/>
+<label class="md-nav__link" for="__nav_2">
+          Obsidian Github Publisher
+          <span class="md-nav__icon md-icon"></span>
+</label>
+<nav aria-label="Obsidian Github Publisher" class="md-nav" data-md-level="1">
+<label class="md-nav__title" for="__nav_2">
+<span class="md-nav__icon md-icon"></span>
+          Obsidian Github Publisher
+        </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../Obsidian%20Github%20Publisher/">
+        Index
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../Obsidian%20Github%20Publisher/configuration%20example/">
+        Exemple de configuration
+      </a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item md-nav__item--active md-nav__item--nested">
+<input checked="" class="md-nav__toggle md-toggle" data-md-toggle="__nav_3" id="__nav_3" type="checkbox"/>
+<label class="md-nav__link" for="__nav_3">
+          Le modèle du blog
+          <span class="md-nav__icon md-icon"></span>
+</label>
+<nav aria-label="Le modèle du blog" class="md-nav" data-md-level="1">
+<label class="md-nav__title" for="__nav_3">
+<span class="md-nav__icon md-icon"></span>
+          Le modèle du blog
+        </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="../">
+        Configuration
+      </a>
+</li>
+<li class="md-nav__item md-nav__item--active">
+<input class="md-nav__toggle md-toggle" data-md-toggle="toc" id="__toc" type="checkbox"/>
+<label class="md-nav__link md-nav__link--active" for="__toc">
+          Personnalisation
+          <span class="md-nav__icon md-icon"></span>
+</label>
+<a class="md-nav__link md-nav__link--active" href="./">
+        Personnalisation
+      </a>
+<nav aria-label="Table des matières" class="md-nav md-nav--secondary">
+<label class="md-nav__title" for="__toc">
+<span class="md-nav__icon md-icon"></span>
+      Table des matières
+    </label>
+<ul class="md-nav__list" data-md-component="toc" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#attributs-customises-et-tags">
+    Attributs customisés et tags
+  </a>
+<nav aria-label="Attributs customisés et tags" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#tags">
+    Tags
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#attributs-markdown-en-ligne">
+    Attributs Markdown en ligne
+  </a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#folder-note">
+    Folder note
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#callout-admonition">
+    Callout &amp; Admonition
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#liste-darticle">
+    Liste d'article
+  </a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../Within%20Obsidian/">
+        Dans Obsidian
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../useful%20plugins/">
+        Plugins utiles pour Obsidian
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../snippets%20and%20tools/">
+        Snippets et outils
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../limitations/">
+        Limitations
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../Q%26A/">
+        Foire aux questions
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../Workflow/">
+        Github Actions
+      </a>
+</li>
+</ul>
+</nav>
+</li>
+</ul>
+</nav>
+</div>
+</div>
+</div>
+<div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc">
+<div class="md-sidebar__scrollwrap">
+<div class="md-sidebar__inner">
+<nav aria-label="Table des matières" class="md-nav md-nav--secondary">
+<label class="md-nav__title" for="__toc">
+<span class="md-nav__icon md-icon"></span>
+      Table des matières
+    </label>
+<ul class="md-nav__list" data-md-component="toc" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#attributs-customises-et-tags">
+    Attributs customisés et tags
+  </a>
+<nav aria-label="Attributs customisés et tags" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#tags">
+    Tags
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#attributs-markdown-en-ligne">
+    Attributs Markdown en ligne
+  </a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#folder-note">
+    Folder note
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#callout-admonition">
+    Callout &amp; Admonition
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#liste-darticle">
+    Liste d'article
+  </a>
+</li>
+</ul>
+</nav>
+</div>
+</div>
+</div>
+<div class="md-content" data-md-component="content">
+<article class="md-content__inner md-typeset">
+<h1>Personnalisation</h1>
+<h2 id="attributs-customises-et-tags">Attributs customisés et tags<a class="headerlink" href="#attributs-customises-et-tags" title="Permanent link">¶</a></h2>
+<h3 id="tags">Tags<a class="headerlink" href="#tags" title="Permanent link">¶</a></h3>
+<p>Le plugin markdown <a href="https://pypi.org/project/mkdocs-custom-tags-attributes/">Custom tags attributes</a> convertira tous les <code>#tags</code> en <code>**tags**{ : #tags .hash}</code> et y ajoutera un CSS personnalisé. </p>
+<div class="admonition example">
+<p class="admonition-title"><code>2022/01/01</code> deviendra <code>**2022/01/01**{: #2022/01 .hash}</code> : #2022/01/01</p>
+</div>
+<h3 id="attributs-markdown-en-ligne">Attributs Markdown en ligne<a class="headerlink" href="#attributs-markdown-en-ligne" title="Permanent link">¶</a></h3>
+<p>Vous pouvez créer des <a href="https://python-markdown.github.io/extensions/attr_list/">Attributs Markdown en ligne</a> à l’aide de hashtags. Par exemple, pour aligner un texte à droite :</p>
+<ol>
+<li>
+<p>Add <br/>
+<div class="highlight"><pre><span></span><code><a href="#__codelineno-0-1" id="__codelineno-0-1" name="__codelineno-0-1"></a><span class="p">#</span><span class="nn">right</span><span class="w"> </span><span class="p">{</span><span class="w"></span>
+<a href="#__codelineno-0-2" id="__codelineno-0-2" name="__codelineno-0-2"></a><span class="w"> </span><span class="k">display</span><span class="p">:</span><span class="w"> </span><span class="kc">inline-block</span><span class="p">;</span><span class="w"></span>
+<a href="#__codelineno-0-3" id="__codelineno-0-3" name="__codelineno-0-3"></a><span class="w"> </span><span class="k">width</span><span class="p">:</span><span class="w"> </span><span class="mi">100</span><span class="kt">%</span><span class="p">;</span><span class="w"></span>
+<a href="#__codelineno-0-4" id="__codelineno-0-4" name="__codelineno-0-4"></a><span class="w"> </span><span class="k">text-align</span><span class="p">:</span><span class="w"> </span><span class="kc">right</span><span class="p">;</span><span class="w"></span>
+<a href="#__codelineno-0-5" id="__codelineno-0-5" name="__codelineno-0-5"></a><span class="w"> </span><span class="k">font-weight</span><span class="p">:</span><span class="w"> </span><span class="kc">normal</span><span class="p">;</span><span class="w"></span>
+<a href="#__codelineno-0-6" id="__codelineno-0-6" name="__codelineno-0-6"></a><span class="p">}</span><span class="w"></span>
+<a href="#__codelineno-0-7" id="__codelineno-0-7" name="__codelineno-0-7"></a>
+<a href="#__codelineno-0-8" id="__codelineno-0-8" name="__codelineno-0-8"></a><span class="p">#</span><span class="nn">blue</span><span class="w"> </span><span class="p">{</span><span class="w"></span>
+<a href="#__codelineno-0-9" id="__codelineno-0-9" name="__codelineno-0-9"></a><span class="w">  </span><span class="k">color</span><span class="p">:</span><span class="w"> </span><span class="kc">blue</span><span class="p">;</span><span class="w"></span>
+<a href="#__codelineno-0-10" id="__codelineno-0-10" name="__codelineno-0-10"></a><span class="p">}</span><span class="w"></span>
+</code></pre></div></p>
+</li>
+<li>
+<p>Ajouter <code>#right</code> sur la dernière partie d’une ligne, et un <code>#blue</code> sur un mot aléatoire : <br/>
+<div class="highlight"><pre><span></span><code><a href="#__codelineno-1-1" id="__codelineno-1-1" name="__codelineno-1-1"></a>Lorem ipsum dolor sit amet, consectetur adipiscing#blue elit. In mollis, libero porttitor gravida accumsan, justo metus pulvinar nulla, vitae dictum odio ligula non nisl. Vivamus id venenatis nulla. Nullam sed euismod ligula. Pellentesque tempor elit felis, lobortis vulputate risus gravida et. Curabitur auctor sed libero nec consectetur. Nam placerat rhoncus risus, euismod sagittis eros bibendum ac. Maecenas tellus libero, porttitor ac purus sit amet, viverra suscipit dolor. Proin id nisl velit. Ut at tincidunt libero, ac pharetra mi. Integer non luctus nisi.#right
+</code></pre></div><br/>
+Cela apparaîtra comme : </p>
+</li>
+</ol>
+<p id="right">Lorem ipsum dolor sit amet, consectetur adipiscing<strong class="hash" id="blue">blue</strong> elit. In mollis, libero porttitor gravida accumsan, justo metus pulvinar nulla, vitae dictum odio ligula non nisl. Vivamus id venenatis nulla. Nullam sed euismod ligula. Pellentesque tempor elit felis, lobortis vulputate risus gravida et. Curabitur auctor sed libero nec consectetur. Nam placerat rhoncus risus, euismod sagittis eros bibendum ac. Maecenas tellus libero, porttitor ac purus sit amet, viverra suscipit dolor. Proin id nisl velit. Ut at tincidunt libero, ac pharetra mi. Integer non luctus nisi.<br/></p>
+<p>Notez qu’il peut y avoir un comportement étrange causé par le fonctionnement de <a href="https://python-markdown.github.io/extensions/attr_list/">attribute list</a> mais cela fonctionne pour la majorité des cas d’utilisation.</p>
+<p>Vous pouvez obtenir plus d’informations dans la documentation de <a href="https://pypi.org/project/mkdocs-custom-tags-attributes/">mkdocs-custom-tags-attributes (en anglais)</a>.</p>
+<h2 id="folder-note">Folder note<a class="headerlink" href="#folder-note" title="Permanent link">¶</a></h2>
+<p>Vous pouvez créer une note de dossier si vous utilisez une clé d’entrée <code>category</code> qui a le dernier dossier avec le même nom que le fichier. Par exemple : <br/>
+<code>category : folder1/folder2/filename</code>. Le fichier <code>filename</code> sera renommé <code>index</code> et le dossier sera nommé <code>filename</code>.</p>
+<div class="admonition info">
+<p class="admonition-title">Si vous utilisez folder note dans obs2mk sans Obsidian Plugin, vous devez configurer une clé d’index. <a href="../../en/Python/customization.md#Folder%20note">Voir ici pour plus d’informations</a></p>
+</div>
+<h2 id="callout-admonition">Callout &amp; Admonition<a class="headerlink" href="#callout-admonition" title="Permanent link">¶</a></h2>
+<p>Le script supporte les admonitions personnalisées. Pour cela, vous devez d’abord éditer ou ajouter un nouveau fichier css en ajoutant le support de votre nouveau callout customisé comme indiqué dans <a href="https://squidfunk.github.io/mkdocs-material/reference/admonitions/#customization">Admonition’s docs</a>.<br/>
+Par exemple, pour ajouter une admonition <code>dictionnary</code> :<br/>
+<div class="highlight"><pre><span></span><code><a href="#__codelineno-2-1" id="__codelineno-2-1" name="__codelineno-2-1"></a><span class="p">:</span><span class="nd">root</span><span class="w"> </span><span class="p">{</span><span class="w"></span>
+<a href="#__codelineno-2-2" id="__codelineno-2-2" name="__codelineno-2-2"></a><span class="w">    </span><span class="nv">--md-admonition-icon--dictionnary</span><span class="p">:</span><span class="w"> </span><span class="nb">url</span><span class="p">(</span><span class="s1">'data:image/svg+xml;charset=utf-8, &lt;svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"&gt;&lt;path d="M18 22a2 2 0 0 0 2-2V4a2 2 0 0 0-2-2h-6v7L9.5 7.5 7 9V2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12z"/&gt;&lt;/svg&gt;'</span><span class="p">)</span><span class="w"></span>
+<a href="#__codelineno-2-3" id="__codelineno-2-3" name="__codelineno-2-3"></a><span class="p">}</span><span class="w"></span>
+<a href="#__codelineno-2-4" id="__codelineno-2-4" name="__codelineno-2-4"></a><span class="p">.</span><span class="nc">md-typeset</span><span class="w"> </span><span class="p">.</span><span class="nc">admonition</span><span class="p">.</span><span class="nc">dictionnary</span><span class="o">,</span><span class="w"></span>
+<a href="#__codelineno-2-5" id="__codelineno-2-5" name="__codelineno-2-5"></a><span class="p">.</span><span class="nc">md-typeset</span><span class="w"> </span><span class="nt">details</span><span class="p">.</span><span class="nc">dictionnary</span><span class="w"> </span><span class="p">{</span><span class="w"></span>
+<a href="#__codelineno-2-6" id="__codelineno-2-6" name="__codelineno-2-6"></a><span class="w">  </span><span class="k">border-color</span><span class="p">:</span><span class="w"> </span><span class="nb">rgb</span><span class="p">(</span><span class="mi">43</span><span class="p">,</span><span class="w"> </span><span class="mi">155</span><span class="p">,</span><span class="w"> </span><span class="mi">70</span><span class="p">);</span><span class="w"></span>
+<a href="#__codelineno-2-7" id="__codelineno-2-7" name="__codelineno-2-7"></a><span class="p">}</span><span class="w"></span>
+<a href="#__codelineno-2-8" id="__codelineno-2-8" name="__codelineno-2-8"></a><span class="p">.</span><span class="nc">md-typeset</span><span class="w"> </span><span class="p">.</span><span class="nc">dictionnary</span><span class="w"> </span><span class="o">&gt;</span><span class="w"> </span><span class="p">.</span><span class="nc">admonition-title</span><span class="o">,</span><span class="w"></span>
+<a href="#__codelineno-2-9" id="__codelineno-2-9" name="__codelineno-2-9"></a><span class="p">.</span><span class="nc">md-typeset</span><span class="w"> </span><span class="p">.</span><span class="nc">dictionnary</span><span class="w"> </span><span class="o">&gt;</span><span class="w"> </span><span class="p">.</span><span class="nc">summary</span><span class="w"> </span><span class="p">{</span><span class="w"></span>
+<a href="#__codelineno-2-10" id="__codelineno-2-10" name="__codelineno-2-10"></a><span class="w">  </span><span class="k">background-color</span><span class="p">:</span><span class="w"> </span><span class="nb">rgba</span><span class="p">(</span><span class="mi">43</span><span class="p">,</span><span class="w"> </span><span class="mi">155</span><span class="p">,</span><span class="w"> </span><span class="mi">70</span><span class="p">,</span><span class="w"> </span><span class="mf">0.1</span><span class="p">);</span><span class="w"></span>
+<a href="#__codelineno-2-11" id="__codelineno-2-11" name="__codelineno-2-11"></a><span class="w">  </span><span class="k">border-color</span><span class="p">:</span><span class="w"> </span><span class="nb">rgb</span><span class="p">(</span><span class="mi">43</span><span class="p">,</span><span class="w"> </span><span class="mi">155</span><span class="p">,</span><span class="w"> </span><span class="mi">70</span><span class="p">);</span><span class="w"></span>
+<a href="#__codelineno-2-12" id="__codelineno-2-12" name="__codelineno-2-12"></a><span class="p">}</span><span class="w"></span>
+<a href="#__codelineno-2-13" id="__codelineno-2-13" name="__codelineno-2-13"></a><span class="p">.</span><span class="nc">md-typeset</span><span class="w"> </span><span class="p">.</span><span class="nc">dictionnary</span><span class="w"> </span><span class="o">&gt;</span><span class="w"> </span><span class="p">.</span><span class="nc">admonition-title</span><span class="p">::</span><span class="nd">before</span><span class="o">,</span><span class="w"></span>
+<a href="#__codelineno-2-14" id="__codelineno-2-14" name="__codelineno-2-14"></a><span class="p">.</span><span class="nc">md-typeset</span><span class="w"> </span><span class="p">.</span><span class="nc">dictionnary</span><span class="w"> </span><span class="o">&gt;</span><span class="w"> </span><span class="nt">summary</span><span class="p">::</span><span class="nd">before</span><span class="w"> </span><span class="p">{</span><span class="w"></span>
+<a href="#__codelineno-2-15" id="__codelineno-2-15" name="__codelineno-2-15"></a><span class="w">  </span><span class="k">background-color</span><span class="p">:</span><span class="w"> </span><span class="nb">rgb</span><span class="p">(</span><span class="mi">43</span><span class="p">,</span><span class="w"> </span><span class="mi">155</span><span class="p">,</span><span class="w"> </span><span class="mi">70</span><span class="p">);</span><span class="w"></span>
+<a href="#__codelineno-2-16" id="__codelineno-2-16" name="__codelineno-2-16"></a><span class="w">  </span><span class="kp">-webkit-</span><span class="k">mask-image</span><span class="p">:</span><span class="w"> </span><span class="nf">var</span><span class="p">(</span><span class="nv">--md-admonition-icon--dictionnary</span><span class="p">);</span><span class="w"></span>
+<a href="#__codelineno-2-17" id="__codelineno-2-17" name="__codelineno-2-17"></a><span class="w">          </span><span class="k">mask-image</span><span class="p">:</span><span class="w"> </span><span class="nf">var</span><span class="p">(</span><span class="nv">--md-admonition-icon--dictionnary</span><span class="p">);</span><span class="w"></span>
+</code></pre></div><br/>
+Cela vous donnera :</p>
+<div class="admonition dictionnary">
+<p class="admonition-title">Dictionnary</p>
+<p>Here’s a callout block.<br/>
+It supports <strong>markdown</strong> and <a href="../../wikilinks" title="wikilinks">wikilinks</a></p>
+</div>
+<p>Le <code>dictionnaire</code> sera reconnu, et converti !</p>
+<h2 id="liste-darticle">Liste d’article<a class="headerlink" href="#liste-darticle" title="Permanent link">¶</a></h2>
+<p><img alt="" src="../../assets/img/Article_list.png"/><br/>
+Une nouvelle façon d’afficher votre article/poste est d’utiliser un modèle spécial.</p>
+<p>Pour organiser cela, vous devez utiliser :</p>
+<ul>
+<li>Des index de pagination</li>
+<li>Un fichier <code>index.md</code> dans un dossier (dossier “une catégorie”).</li>
+</ul>
+<p>Cet <code>index</code> est sous cette forme :<br/>
+<div class="highlight"><pre><span></span><code><a href="#__codelineno-3-1" id="__codelineno-3-1" name="__codelineno-3-1"></a>---
+<a href="#__codelineno-3-2" id="__codelineno-3-2" name="__codelineno-3-2"></a>template: blog.html
+<a href="#__codelineno-3-3" id="__codelineno-3-3" name="__codelineno-3-3"></a>title: Folder Index
+<a href="#__codelineno-3-4" id="__codelineno-3-4" name="__codelineno-3-4"></a>category: FolderName
+<a href="#__codelineno-3-5" id="__codelineno-3-5" name="__codelineno-3-5"></a><span class="gu">hidden: True</span>
+<a href="#__codelineno-3-6" id="__codelineno-3-6" name="__codelineno-3-6"></a><span class="gu">---</span>
+<a href="#__codelineno-3-7" id="__codelineno-3-7" name="__codelineno-3-7"></a>Une chouette description
+</code></pre></div></p>
+<p>Le <code>blog.html</code> utilise un fichier dans <code>overrides/partials</code>.</p>
+<p>Si vous voulez cacher un fichier de cette liste, vous pouvez utiliser la clé <code>hidden</code> dans le frontmatter. </p>
+<div class="admonition warning">
+<p class="admonition-title">Plugin</p>
+<p>La date affichée dépend d’un nouveau plugin nommé <a href="https://github.com/timvink/mkdocs-git-revision-date-localized-plugin"><code>mkdocs-git-revision-date-localized-plugin</code></a>. N’oubliez pas de le personnaliser !</p>
+</div>
+<div class="admonition warning">
+<p class="admonition-title">Pour afficher une image illustrative, veuillez ajouter une clé de métadonnée dans le frontmatter</p>
+<ol>
+<li>Image située dans le blog : <code>image:</code><br/>
+        Cette image doit être le nom de l’image (+ extension) et placée dans <code>assets/img</code>.</li>
+<li>Image externe: <code>banner:</code></li>
+</ol>
+</div>
+<div class="admonition note">
+<p class="admonition-title">Vous pouvez aussi utiliser la github action <code>create_index</code> pour créer un nouvel index pour un nouveau dossier.</p>
+<p>Pour plus d’information voir <a class="link-tooltip" data-tooltip-content="#Workflow_tooltip_id" href="../Workflow/">Workflow</a></p>
+</div>
+<!-- Giscus -->
+<h2 id="__comments">Commentaires</h2>
+<script async="" crossorigin="anonymous" data-category-id="DIC_kwDOGlyxGM4CQMx1" data-emit-metadata="0" data-input-position="top" data-lang="fr" data-mapping="url" data-reactions-enabled="1" data-repo="mara-Li/Seed_Publish" data-repo-id="R_kgDOGlyxGA" data-theme="dark_dimmed" src="https://giscus.app/client.js">
+</script>
+<script>
+    var giscus = document.querySelector("script[src*=giscus]")
+
+    /* Set palette on initial load */
+    var palette = __md_get("__palette")
+    if (palette && typeof palette.color === "object") {
+        var theme = palette.color.scheme === "slate" ? "dark_dimmed" : "light"
+        giscus.setAttribute("data-theme", theme)
+    }
+
+    /* Register event handlers after documented loaded */
+    document.addEventListener("DOMContentLoaded", function () {
+        var ref = document.querySelector("[data-md-component=palette]")
+        ref.addEventListener("change", function () {
+            var palette = __md_get("__palette")
+            if (palette && typeof palette.color === "object") {
+                var theme = palette.color.scheme === "slate" ? "dark_dimmed" : "light"
+
+                /* Instruct Giscus to change theme */
+                var frame = document.querySelector(".giscus-frame")
+                frame.contentWindow.postMessage(
+                    { giscus: { setConfig: { theme } } },
+                    "https://giscus.app"
+                )
+            }
+        })
+    })
+</script>
+</article>
+</div>
+</div>
+<a class="md-top md-icon" data-md-component="top" hidden="" href="#">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8v12Z"></path></svg>
+            Retour en haut de la page
+          </a>
+</main>
+<footer class="md-footer">
+<nav aria-label="Pied de page" class="md-footer__inner md-grid">
+<a aria-label="Précédent: Configuration" class="md-footer__link md-footer__link--prev" href="../" rel="prev">
+<div class="md-footer__button md-icon">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"></path></svg>
+</div>
+<div class="md-footer__title">
+<div class="md-ellipsis">
+<span class="md-footer__direction">
+                Précédent
+              </span>
+              Configuration
+            </div>
+</div>
+</a>
+<a aria-label="Suivant: Dans Obsidian" class="md-footer__link md-footer__link--next" href="../Within%20Obsidian/" rel="next">
+<div class="md-footer__title">
+<div class="md-ellipsis">
+<span class="md-footer__direction">
+                Suivant
+              </span>
+              Dans Obsidian
+            </div>
+</div>
+<div class="md-footer__button md-icon">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11H4Z"></path></svg>
+</div>
+</a>
+</nav>
+<div class="md-footer-meta md-typeset">
+<div class="md-footer-meta__inner md-grid">
+<div class="md-copyright">
+</div>
+</div>
+</div>
+</footer>
+</div>
+<div class="md-dialog" data-md-component="dialog">
+<div class="md-dialog__inner md-typeset"></div>
+</div>
+<script id="__config" type="application/json">{"base": "../../..", "features": ["navigation.indexes", "navigation.top", "navigation.tabs", "navigation.tabs.sticky", "navigation.expand", "navigation.instant", "search.suggest", "search.highlight"], "search": "../../../assets/javascripts/workers/search.b97dbffb.min.js", "translations": {"clipboard.copied": "Copi\u00e9 dans le presse-papier", "clipboard.copy": "Copier dans le presse-papier", "search.config.lang": "fr", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Rechercher", "search.result.more.one": "1 de plus sur cette page", "search.result.more.other": "# de plus sur cette page", "search.result.none": "Aucun document trouv\u00e9", "search.result.one": "1 document trouv\u00e9", "search.result.other": "# documents trouv\u00e9s", "search.result.placeholder": "Taper pour d\u00e9marrer la recherche", "search.result.term.missing": "Non trouv\u00e9", "select.version.title": "S\u00e9lectionner la version"}}</script>
+<script src="../../../assets/javascripts/bundle.6c7ad80a.min.js"></script>
+<script src="../../../assets/js/mathjax.js"></script>
+<script src="../../../assets/js/utils.js"></script>
+<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+<script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+<script src="../../../assets/js/tooltipster.bundle.js"></script>
+<div class="tooltip_templates"><div id="Workflow_tooltip_id"><p>Il y a beaucoup d’actions Github ici ! Tout d’abord, si vous avez besoin d’informations sur ce qu’est une action Github :</p>
+<p>[!cite] Définition<br/>
+Les GitHub Actions permettent d’automatiser facilement tous vos flux de travail logiciels, désormais avec un CI/CD de classe mondiale. Construisez, testez et déployez votre code directement depuis GitHub. Faites fonctionner les revues de code, la gestion …</p></div></div></body>
+</html>
