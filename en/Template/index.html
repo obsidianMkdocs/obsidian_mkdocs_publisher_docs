@@ -338,11 +338,6 @@
 </nav>
 </li>
 <li class="md-nav__item">
-<a class="md-nav__link" href="#oh-no-a-bug">
-    Oh no, a bug!
-  </a>
-</li>
-<li class="md-nav__item">
 <a class="md-nav__link" href="#local-testing-optional">
     Local testing (optional)
   </a>
@@ -352,7 +347,7 @@
 </li>
 <li class="md-nav__item">
 <a class="md-nav__link" href="Workflow/">
-        Workflow.md
+        Github Actions
       </a>
 </li>
 </ul>
@@ -417,11 +412,6 @@
 </nav>
 </li>
 <li class="md-nav__item">
-<a class="md-nav__link" href="#oh-no-a-bug">
-    Oh no, a bug!
-  </a>
-</li>
-<li class="md-nav__item">
 <a class="md-nav__link" href="#local-testing-optional">
     Local testing (optional)
   </a>
@@ -474,7 +464,21 @@
 <p>You will spot that I added a <a href="https://facelessuser.github.io/pymdown-extensions/extensions/superfences/"><code>custom fences</code></a> for dataviewjs. Sorry, dataviewjs is not currently supported by mkdocs nor Obsidian Publisher. This custom fences will hide every dataviewjs block. <br/>
 It will, so, prevent display stange block in your markdown file. If you need to display it as code, change the language (like <code>js</code> for example).</p>
 </div>
-<h2 id="oh-no-a-bug">Oh no, a bug!<a class="headerlink" href="#oh-no-a-bug" title="Permanent link">¶</a></h2>
+<hr/>
+<h2 id="local-testing-optional">Local testing (<em>optional</em>)<a class="headerlink" href="#local-testing-optional" title="Permanent link">¶</a></h2>
+<p>To run locally the blog, you need to install the requirements and run <code>mkdocs serve</code>.<br/>
+<div class="highlight"><pre><span></span><code><a href="#__codelineno-0-1" id="__codelineno-0-1" name="__codelineno-0-1"></a>cd publish_blog
+<a href="#__codelineno-0-2" id="__codelineno-0-2" name="__codelineno-0-2"></a>pip install -r requirements.txt
+<a href="#__codelineno-0-3" id="__codelineno-0-3" name="__codelineno-0-3"></a>mkdocs serve
+</code></pre></div><br/>
+A little advice here : You could use a <a href="https://docs.conda.io/en/latest/">conda</a> environment here (or a venv, but I don’t like venv.). Just use this:<br/>
+<div class="highlight"><pre><span></span><code><a href="#__codelineno-1-1" id="__codelineno-1-1" name="__codelineno-1-1"></a>conda create -n Publisher <span class="nv">python</span><span class="o">=</span><span class="m">3</span>.10.4
+<a href="#__codelineno-1-2" id="__codelineno-1-2" name="__codelineno-1-2"></a>conda activate Publisher
+</code></pre></div><br/>
+Just before the <code>pip install</code>!</p>
+<hr/>
+<h1 id="deploy">Deploy<a class="headerlink" href="#deploy" title="Permanent link">¶</a></h1>
+<h2 id="through-github">Through GitHub<a class="headerlink" href="#through-github" title="Permanent link">¶</a></h2>
 <p>The blog will be published through <a href="https://pages.github.com/">GitHub Page</a> using the <code>gh-page</code> branch. </p>
 <div class="admonition bug">
 <p class="admonition-title">I have the readme in place of my files!</p>
@@ -492,18 +496,47 @@ It will, so, prevent display stange block in your markdown file. If you need to 
 <p>In the <a href="https://github.com/obsidianPublisher/obsidian-github-publisher/issues/4">issue <strong class="hash" id="4">4</strong></a>, we discover that sometimes, Github Actions refuse to run without reason. If this happend to you, please, contact the Github Support!</p>
 </div>
 </div>
-<hr/>
-<h2 id="local-testing-optional">Local testing (<em>optional</em>)<a class="headerlink" href="#local-testing-optional" title="Permanent link">¶</a></h2>
-<p>To run locally the blog, you need to install the requirements and run <code>mkdocs serve</code>.<br/>
-<div class="highlight"><pre><span></span><code><a href="#__codelineno-0-1" id="__codelineno-0-1" name="__codelineno-0-1"></a>cd publish_blog
-<a href="#__codelineno-0-2" id="__codelineno-0-2" name="__codelineno-0-2"></a>pip install -r requirements.txt
-<a href="#__codelineno-0-3" id="__codelineno-0-3" name="__codelineno-0-3"></a>mkdocs serve
-</code></pre></div><br/>
-A little advice here : You could use a <a href="https://docs.conda.io/en/latest/">conda</a> environment here (or a venv, but I don’t like venv.). Just use this:<br/>
-<div class="highlight"><pre><span></span><code><a href="#__codelineno-1-1" id="__codelineno-1-1" name="__codelineno-1-1"></a>conda create -n Publisher <span class="nv">python</span><span class="o">=</span><span class="m">3</span>.10.4
-<a href="#__codelineno-1-2" id="__codelineno-1-2" name="__codelineno-1-2"></a>conda activate Publisher
-</code></pre></div><br/>
-Just before the <code>pip install</code>!</p>
+<h2 id="through-netlify">Through Netlify<a class="headerlink" href="#through-netlify" title="Permanent link">¶</a></h2>
+<p>Netlify.app is a great tool to deploy your blog. It’s a free service that allows you to deploy your blog on the web, and the build will be faster than GitHub Pages.</p>
+<p>To deploy your blog, you can click here : <a href="https://app.netlify.com/start/deploy?repository=https://github.com/ObsidianPublisher/obsidian-mkdocs-publisher-template"><img alt="Deploy to Netlify" src="https://www.netlify.com/img/deploy/button.svg"/></a></p>
+<p>Alternatively :</p>
+<ul>
+<li>Create an account on Netlify</li>
+<li>Add a new site using already existing repository.<br/>
+  For configuration, use :<ul>
+<li>Leave blank for repository ;</li>
+<li>Use <code>mkdocs build</code> for commands ;</li>
+<li>Finally, use <code>site</code> as site directory.<br/>
+<img alt="config_netlify" src="https://i.imgur.com/ESc9vLu.png"/> </li>
+</ul>
+</li>
+<li>Grab the <code>runtime.txt</code> or create a new environment variable with <code>PYTHON_VERSION</code> fixed at <code>3.8</code>.</li>
+</ul>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>It can be possible that you need to remove your <code>gh-pages</code> in GitHub to remove GitHub Pages.</p>
+</div>
+<div class="admonition info">
+<p class="admonition-title">Pros/cons</p>
+<div class="admonition info">
+<p class="admonition-title">Pros</p>
+<ul>
+<li>Faster than GitHub Pages (1min vs 3min)</li>
+<li>No need to use a <code>gh-pages</code> branch</li>
+<li>Free</li>
+<li>No need to worry about workflow times for private repository.</li>
+<li>Better link for your blog and you can customize it!</li>
+</ul>
+</div>
+<div class="admonition info">
+<p class="admonition-title">Cons</p>
+<ul>
+<li>You need to have a Netlify account</li>
+<li>Limited by Bandswith for all site (100 GB)</li>
+<li>Limited to 300 minutes/builds per month. </li>
+</ul>
+</div>
+</div>
 <hr/>
 <ul>
 <li><a href="https://github.com/Mara-Li/obsidian_mkdocs_publisher">Main Repo</a></li>
@@ -575,13 +608,13 @@ Just before the <code>pip install</code>!</p>
             </div>
 </div>
 </a>
-<a aria-label="Next: Workflow.md" class="md-footer__link md-footer__link--next" href="Workflow/" rel="next">
+<a aria-label="Next: Github Actions" class="md-footer__link md-footer__link--next" href="Workflow/" rel="next">
 <div class="md-footer__title">
 <div class="md-ellipsis">
 <span class="md-footer__direction">
                 Next
               </span>
-              Workflow.md
+              Github Actions
             </div>
 </div>
 <div class="md-footer__button md-icon">

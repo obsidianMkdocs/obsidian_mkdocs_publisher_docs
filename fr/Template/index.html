@@ -248,14 +248,28 @@
 </nav>
 </li>
 <li class="md-nav__item">
-<a class="md-nav__link" href="#oh-non-un-bug">
-    Oh non, un bug !
-  </a>
-</li>
-<li class="md-nav__item">
 <a class="md-nav__link" href="#test-local-optionnel">
     Test local (optionnel)
   </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#deploiement">
+    Deploiement
+  </a>
+<nav aria-label="Deploiement" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#par-github-pages">
+    Par GitHub Pages
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#par-netlify">
+    Par Netlify
+  </a>
+</li>
+</ul>
+</nav>
 </li>
 </ul>
 </nav>
@@ -332,14 +346,28 @@
 </nav>
 </li>
 <li class="md-nav__item">
-<a class="md-nav__link" href="#oh-non-un-bug">
-    Oh non, un bug !
-  </a>
-</li>
-<li class="md-nav__item">
 <a class="md-nav__link" href="#test-local-optionnel">
     Test local (optionnel)
   </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#deploiement">
+    Deploiement
+  </a>
+<nav aria-label="Deploiement" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#par-github-pages">
+    Par GitHub Pages
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#par-netlify">
+    Par Netlify
+  </a>
+</li>
+</ul>
+</nav>
 </li>
 </ul>
 </nav>
@@ -348,7 +376,6 @@
 </div>
 <div class="md-content" data-md-component="content">
 <article class="md-content__inner md-typeset">
-<h1>Configuration</h1>
 <h2 id="configuration">Configuration<a class="headerlink" href="#configuration" title="Permanent link">¶</a></h2>
 <h2 id="configuration-de-mkdocs">Configuration de Mkdocs<a class="headerlink" href="#configuration-de-mkdocs" title="Permanent link">¶</a></h2>
 <p>Dans votre nouveau dossier <code>publish_blog</code>, vous trouverez un <code>mkdocs.yml</code>. Ce fichier vous permet de personnaliser votre blog ! Les plus importants à éditer :</p>
@@ -390,7 +417,21 @@
 <p>Vous remarquerez que j’ai ajouté une <a href="https://facelessuser.github.io/pymdown-extensions/extensions/superfences/"><code>custom fences</code></a> pour dataviewjs. Désolé, dataviewjs n’est pas encore supporté par mkdocs ni Obsidian Publisher. Ce “custom fence” cachera tous les blocs dataviewjs. <br/>
 Elle empêchera donc l’affichage de blocs étranges dans votre fichier markdown. Si vous avez besoin de l’afficher comme du code, changez le langage (comme <code>js</code> par exemple).</p>
 </div>
-<h2 id="oh-non-un-bug">Oh non, un bug !<a class="headerlink" href="#oh-non-un-bug" title="Permanent link">¶</a></h2>
+<h2 id="test-local-optionnel">Test local (<em>optionnel</em>)<a class="headerlink" href="#test-local-optionnel" title="Permanent link">¶</a></h2>
+<p>Pour faire fonctionner le blog en local, vous devez installer les pré-requis et lancer <code>mkdocs serve</code>.<br/>
+<div class="highlight"><pre><span></span><code><a href="#__codelineno-0-1" id="__codelineno-0-1" name="__codelineno-0-1"></a>cd publish_blog
+<a href="#__codelineno-0-2" id="__codelineno-0-2" name="__codelineno-0-2"></a>pip install -r requirements.txt
+<a href="#__codelineno-0-3" id="__codelineno-0-3" name="__codelineno-0-3"></a>mkdocs serve
+</code></pre></div><br/>
+Un petit conseil : Vous pouvez utiliser un environnement <a href="https://docs.conda.io/en/latest/">conda</a> ici (ou un venv, mais je n’aime pas venv). Utilisez simplement ceci :<br/>
+<code>`bash
+conda create -n Publisher python=3.10.4
+conda activate Publisher
+```
+Juste avant l'installation du</code>pip` !</p>
+<hr/>
+<h1 id="deploiement">Deploiement<a class="headerlink" href="#deploiement" title="Permanent link">¶</a></h1>
+<h2 id="par-github-pages">Par GitHub Pages<a class="headerlink" href="#par-github-pages" title="Permanent link">¶</a></h2>
 <p>Le blog sera publié via <a href="https://pages.github.com/">GitHub Page</a> en utilisant la branche <code>gh-page</code>. </p>
 <div class="admonition bug">
 <p class="admonition-title">J’ai le README à la place de mes fichiers !</p>
@@ -405,27 +446,53 @@ Elle empêchera donc l’affichage de blocs étranges dans votre fichier markdow
 </ul>
 <div class="admonition avertissement">
 <p class="admonition-title">En cas de problème de worfklow</p>
-<p>Dans le <a href="https://github.com/obsidianPublisher/obsidian-github-publisher/issues/4">problème <strong class="hash" id="4">4</strong></a>, nous avons découvert que parfois, les actions Github refusent de s’exécuter sans raison. Si cela vous arrive, veuillez contacter le support Github !</p>
+<p>Dans le <a href="https://github.com/obsidianPublisher/obsidian-github-publisher/issues/4">problème #4</a>, nous avons découvert que parfois, les actions Github refusent de s’exécuter sans raison. Si cela vous arrive, veuillez contacter le support Github !</p>
 </div>
 </div>
-<hr/>
-<h2 id="test-local-optionnel">Test local (<em>optionnel</em>)<a class="headerlink" href="#test-local-optionnel" title="Permanent link">¶</a></h2>
-<p>Pour faire fonctionner le blog en local, vous devez installer les pré-requis et lancer <code>mkdocs serve</code>.</p>
-<p><div class="highlight"><pre><span></span><code><a href="#__codelineno-0-1" id="__codelineno-0-1" name="__codelineno-0-1"></a>cd publish_blog
-<a href="#__codelineno-0-2" id="__codelineno-0-2" name="__codelineno-0-2"></a>pip install -r requirements.txt
-<a href="#__codelineno-0-3" id="__codelineno-0-3" name="__codelineno-0-3"></a>mkdocs serve
-</code></pre></div><br/>
-Un petit conseil : Vous pouvez utiliser un environnement <a href="https://docs.conda.io/en/latest/">conda</a> ici (ou un venv, mais je n’aime pas venv). Utilisez simplement ceci :<br/>
-<code>`bash
-conda create -n Publisher python=3.10.4
-conda activate Publisher
-```
-Juste avant l'installation du</code>pip` !</p>
+<h2 id="par-netlify">Par Netlify<a class="headerlink" href="#par-netlify" title="Permanent link">¶</a></h2>
+<p>Netlify est un service qui permet de publier votre blog gratuitement sur un site web, et la construction du blog (<em>build</em>) sera beaucoup plus rapide que via GitHub.</p>
+<p>Pour déployer votre blog, vous pouvez cliquer ici : <a href="https://app.netlify.com/start/deploy?repository=https://github.com/ObsidianPublisher/obsidian-mkdocs-publisher-template"><img alt="Deploy to Netlify" src="https://www.netlify.com/img/deploy/button.svg"/></a></p>
+<p>Alternativement : </p>
+<ul>
+<li>Créer un compte sur Netlify.app</li>
+<li>Ajouter un nouveau site en utilisant un dépôt déjà existant. <br/>
+    Pour la configuration, vous pouvez utiliser :<ul>
+<li>Laisser blanc pour le <code>base directory</code></li>
+<li><u>Build command</u> : <code>mkdocs build</code></li>
+<li><u>Publish directory</u> : <code>site</code></li>
+</ul>
+</li>
+<li>Prendre le fichier <code>runtime.txt</code> et le rajouter à la racine de votre dépôt, ou créer une nouvelle variable d’environnement nommée <code>PYTHON_VERSION</code> fixée à <code>3.8</code>.</li>
+</ul>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Il peut être possible que vous ayez besoin de supprimer la branch <code>gh-pages</code> pour supprimer l’ancienne page GitHub Pages.</p>
+</div>
+<div class="admonition info">
+<p class="admonition-title">Avantages/inconvénients</p>
+<div class="admonition info">
+<p class="admonition-title">Avantages</p>
+<ul>
+<li>Plus rapide que GitHub Pages (1min VS 3min)</li>
+<li>Gratuit</li>
+<li>Pas besoin de s’inquiéter du temps des workflow dans les dépôt privés.</li>
+<li>Meilleur liens et customisation de ses derniers.</li>
+</ul>
+</div>
+<div class="admonition info">
+<p class="admonition-title">Inconvénients</p>
+<ul>
+<li>Vous avez besoin d’un compte Netlify pour déployer votre blog.</li>
+<li>Limité par la bande passante à 100GB pour tous les sites</li>
+<li>Limités à 300minutes/build par mois.</li>
+</ul>
+</div>
+</div>
 <hr/>
 <ul>
 <li><a href="https://github.com/ObsidianPublisher/obsidian-github-publisher">Obsidian Plugin</a></li>
 <li><a href="https://github.com/ObsidianPublisher/obsidian-mkdocs-publisher-template">Template</a></li>
-<li><a href="https://obsidianpublisher.github.io/obsidian-mkdocs-publisher-docs/">Documentation</a></li>
+<li><a href="https://obsidian-publisher.netlify.app">Documentation</a></li>
 </ul>
 <div class="footnote">
 <hr/>
