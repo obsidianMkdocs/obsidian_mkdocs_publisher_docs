@@ -42,6 +42,9 @@
 <input autocomplete="off" class="md-toggle" data-md-toggle="search" id="__search" type="checkbox"/>
 <label class="md-overlay" for="__drawer"></label>
 <div data-md-component="skip">
+<a class="md-skip" href="#liens-principaux">
+          Aller au contenu
+        </a>
 </div>
 <div data-md-component="announce">
 </div>
@@ -170,9 +173,54 @@
 <ul class="md-nav__list" data-md-scrollfix="">
 <li class="md-nav__item md-nav__item--active">
 <input class="md-nav__toggle md-toggle" data-md-toggle="toc" id="__toc" type="checkbox"/>
+<label class="md-nav__link md-nav__link--active" for="__toc">
+          Home
+          <span class="md-nav__icon md-icon"></span>
+</label>
 <a class="md-nav__link md-nav__link--active" href="./">
         Home
       </a>
+<nav aria-label="Table des matières" class="md-nav md-nav--secondary">
+<label class="md-nav__title" for="__toc">
+<span class="md-nav__icon md-icon"></span>
+      Table des matières
+    </label>
+<ul class="md-nav__list" data-md-component="toc" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#liens-principaux">
+    Liens principaux
+  </a>
+<nav aria-label="Liens principaux" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#support">
+    Support
+  </a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#github-actions-obsidians-plugin">
+    Github actions &amp; Obsidian's plugin
+  </a>
+<nav aria-label="Github actions &amp; Obsidian's plugin" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#tldr">
+    TLDR
+  </a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#tutoriel-dinstallation-rapide-dun-blog">
+    Tutoriel d'installation rapide d'un blog
+  </a>
+</li>
+</ul>
+</nav>
 </li>
 <li class="md-nav__item md-nav__item--nested">
 <input checked="" class="md-nav__toggle md-toggle md-toggle--indeterminate" data-md-toggle="__nav_2" id="__nav_2" type="checkbox"/>
@@ -263,6 +311,45 @@
 <div class="md-sidebar__scrollwrap">
 <div class="md-sidebar__inner">
 <nav aria-label="Table des matières" class="md-nav md-nav--secondary">
+<label class="md-nav__title" for="__toc">
+<span class="md-nav__icon md-icon"></span>
+      Table des matières
+    </label>
+<ul class="md-nav__list" data-md-component="toc" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#liens-principaux">
+    Liens principaux
+  </a>
+<nav aria-label="Liens principaux" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#support">
+    Support
+  </a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#github-actions-obsidians-plugin">
+    Github actions &amp; Obsidian's plugin
+  </a>
+<nav aria-label="Github actions &amp; Obsidian's plugin" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#tldr">
+    TLDR
+  </a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#tutoriel-dinstallation-rapide-dun-blog">
+    Tutoriel d'installation rapide d'un blog
+  </a>
+</li>
+</ul>
 </nav>
 </div>
 </div>
@@ -276,68 +363,72 @@
 <a href="https://obsidian.md/"><img src="https://img.shields.io/badge/Auxiliary%20Tool-Obsidian-blueviolet"/></a>
 <a href="https://github.com/Mara-Li/mkdocs_obsidian_template/wiki/Q&amp;A/"><img src="https://img.shields.io/badge/-Q%26A-blue?logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0Ij48cGF0aCBkPSJNMTIgMkM2LjQ4NiAyIDIgNi40ODYgMiAxMnM0LjQ4NiAxMCAxMCAxMCAxMC00LjQ4NiAxMC0xMFMxNy41MTQgMiAxMiAyem0wIDE4Yy00LjQxMSAwLTgtMy41ODktOC04czMuNTg5LTggOC04IDggMy41ODkgOCA4LTMuNTg5IDgtOCA4eiIvPjxwYXRoIGQ9Ik0xMSAxMWgydjZoLTJ6bTAtNGgydjJoLTJ6Ii8+PC9zdmc+"/></a>
 </p>
-<p align="center"><a href="https://obsidian-publisher.netlify.app">Documentation</a></p>
-<p align="center"><a href="https://www.mara-li.fr">Owlly Seed (Mon blog ; en françaiks)</a></p>
-<p align="center"><a href="https://app.netlify.com/start/deploy?repository=https://github.com/ObsidianPublisher/obsidian-mkdocs-publisher-template"><img src="https://www.netlify.com/img/deploy/button.svg"/></a><p>
-
-Les plugins sont accessibles avec une action github et un module d'Obsidian.
-
-## Liens principaux
-
-- [Module Obsidian](https://github.com/obsidianPublisher/obsidian-github-publisher)
-- [Modèle](https://github.com/obsidianPublisher/obsidian-mkdocs-publisher-template)
-
-### Support 
-
-- [x] Wikilinks (`[[Liens]]`)
-- [x] Transclusion/embed de fichiers, tant pour les liens wikilinks que pour les liens markdowns
-- [x] Callout d'obsidian &amp; les callouts personnalisés
-- [x] Folder notes et leur "citation"
-- [x] Attributs customisés
-- [x] État de partage et hiérarchie de dossiers personnalisée.
-- [x] Mobile et PC
-- [x] Mini aperçu du fichier au survol 
-
----
-## Github actions &amp; Obsidian's plugin
-### TLDR
-
-1. Installation via les modules communautaire ou [BRAT](https://github.com/TfTHacker/obsidian42-brat)
-2. [Templater](https://github.com/obsidianPublisher/mkdocs_obsidian_template) le blog et configurez-le.
-3. Configurer les options du plugins : 
-    - Nom du dépôt
-    - Votre pseudonyme GitHub
-    - Le Token GitHub ([from here](https://github.com/settings/tokens/new?scopes=repo))
-    - La clé de partage
-4. Ajouter la clé à l'état `true` dans vos fichiers Obsidian
-5. Personnalisez (ou non) les options de dossiers
-6. Exécutez les commandes par le biais du menu fichier ou de la palette de commandes.
-
-!!! info "[Regardez ici pour plus d'explication](../en/Obsidian%20Github%20Publisher/Configuration%20example.md "Regardez ici pour plus d'explication")"
-
----
-
-## Tutoriel d'installation rapide d'un blog
-
-1. Cliquez sur [use this template](https://github.com/obsidianPublisher/obsidian-mkdocs-publisher-template/generate)[^1]
-2. Utilisez le nom de votre choix
-3. Cliquez sur [code](https://docs.github.com/en/get-started/getting-started-with-git/about-remote-repositories) → SSH ; Copiez le lien
-4. Lancer (dans un terminal):
+<p align="center">
+<a href="https://obsidian-publisher.netlify.app">Documentation</a><br/>
+<a href="https://www.mara-li.fr">Owlly Seed (Mon blog ; en français)</a><br/>
+<a href="https://app.netlify.com/start/deploy?repository=https://github.com/ObsidianPublisher/obsidian-mkdocs-publisher-template"><img src="https://www.netlify.com/img/deploy/button.svg"/></a>
+</p>
+<p>Les plugins sont accessibles avec une action github et un module d’Obsidian.</p>
+<h2 id="liens-principaux">Liens principaux<a class="headerlink" href="#liens-principaux" title="Permanent link">¶</a></h2>
+<ul>
+<li><a href="https://github.com/obsidianPublisher/obsidian-github-publisher">Module Obsidian</a></li>
+<li><a href="https://github.com/obsidianPublisher/obsidian-mkdocs-publisher-template">Modèle</a></li>
+</ul>
+<h3 id="support">Support<a class="headerlink" href="#support" title="Permanent link">¶</a></h3>
+<ul class="task-list">
+<li class="task-list-item"><label class="task-list-control"><input checked="" disabled="" type="checkbox"/><span class="task-list-indicator"></span></label> Wikilinks (<code>[[Liens]]</code>)</li>
+<li class="task-list-item"><label class="task-list-control"><input checked="" disabled="" type="checkbox"/><span class="task-list-indicator"></span></label> Transclusion/embed de fichiers, tant pour les liens wikilinks que pour les liens markdowns</li>
+<li class="task-list-item"><label class="task-list-control"><input checked="" disabled="" type="checkbox"/><span class="task-list-indicator"></span></label> Callout d’obsidian &amp; les callouts personnalisés</li>
+<li class="task-list-item"><label class="task-list-control"><input checked="" disabled="" type="checkbox"/><span class="task-list-indicator"></span></label> Folder notes et leur “citation”</li>
+<li class="task-list-item"><label class="task-list-control"><input checked="" disabled="" type="checkbox"/><span class="task-list-indicator"></span></label> Attributs customisés</li>
+<li class="task-list-item"><label class="task-list-control"><input checked="" disabled="" type="checkbox"/><span class="task-list-indicator"></span></label> État de partage et hiérarchie de dossiers personnalisée.</li>
+<li class="task-list-item"><label class="task-list-control"><input checked="" disabled="" type="checkbox"/><span class="task-list-indicator"></span></label> Mobile et PC</li>
+<li class="task-list-item"><label class="task-list-control"><input checked="" disabled="" type="checkbox"/><span class="task-list-indicator"></span></label> Mini aperçu du fichier au survol </li>
+</ul>
+<hr/>
+<h2 id="github-actions-obsidians-plugin">Github actions &amp; Obsidian’s plugin<a class="headerlink" href="#github-actions-obsidians-plugin" title="Permanent link">¶</a></h2>
+<h3 id="tldr">TLDR<a class="headerlink" href="#tldr" title="Permanent link">¶</a></h3>
+<ol>
+<li>Installation via les modules communautaire ou <a href="https://github.com/TfTHacker/obsidian42-brat">BRAT</a></li>
+<li><a href="https://github.com/obsidianPublisher/mkdocs_obsidian_template">Templater</a> le blog et configurez-le.</li>
+<li>Configurer les options du plugins : <ul>
+<li>Nom du dépôt</li>
+<li>Votre pseudonyme GitHub</li>
+<li>Le Token GitHub (<a href="https://github.com/settings/tokens/new?scopes=repo">from here</a>)</li>
+<li>La clé de partage</li>
+</ul>
+</li>
+<li>Ajouter la clé à l’état <code>true</code> dans vos fichiers Obsidian</li>
+<li>Personnalisez (ou non) les options de dossiers</li>
+<li>Exécutez les commandes par le biais du menu fichier ou de la palette de commandes.</li>
+</ol>
+<div class="admonition info">
+<p class="admonition-title"><a href="../en/Obsidian%20Github%20Publisher/Configuration%20example.md" title="Regardez ici pour plus d'explication">Regardez ici pour plus d’explication</a></p>
+</div>
+<hr/>
+<h2 id="tutoriel-dinstallation-rapide-dun-blog">Tutoriel d’installation rapide d’un blog<a class="headerlink" href="#tutoriel-dinstallation-rapide-dun-blog" title="Permanent link">¶</a></h2>
+<ol>
+<li>Cliquez sur <a href="https://github.com/obsidianPublisher/obsidian-mkdocs-publisher-template/generate">use this template</a><sup id="fnref:1"><a class="footnote-ref" href="#fn:1">1</a></sup></li>
+<li>Utilisez le nom de votre choix</li>
+<li>Cliquez sur <a href="https://docs.github.com/en/get-started/getting-started-with-git/about-remote-repositories">code</a> → SSH ; Copiez le lien</li>
+<li>Lancer (dans un terminal):<br/>
 <div class="highlight"><pre><span></span><code><a href="#__codelineno-0-1" id="__codelineno-0-1" name="__codelineno-0-1"></a>git clone <span class="o">[[</span>PASTE THE LINK HERE<span class="o">]]</span> publish_blog
 <a href="#__codelineno-0-2" id="__codelineno-0-2" name="__codelineno-0-2"></a>pip install -r requirements.txt
-</code></pre></div>
-
-N'oubliez pas non plus de configurer GitHub pour autoriser le push ! (Voir ici pour des informations sur la configuration de Git) (https://docs.github.com/en/get-started/quickstart/set-up-git)
-
-De manière alternative, vous pouvez utiliser Netlify pour créer et déployer le blog. Pour cela, vous devez juste cliquer ici : 
-!!! [deploy to netlify "(https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/ObsidianPublisher/obsidian-mkdocs-publisher-template)"
-
-N'oubliez pas de configurer le fichier `mkdocs.yml` !
-
-[^1]: Vous devez être connecté pour copier le template ! Vous pouvez tester localement par clone &gt; https : `git clone https://github.com/Mara-Li/mkdocs_obsidian_template.git` ou [en téléchargeant le ZIP](https://github.com/Mara-Li/mkdocs_obsidian_template/archive/refs/heads/main.zip)
-
-              
-  <!-- Giscus -->
+</code></pre></div></li>
+</ol>
+<p>N’oubliez pas non plus de configurer GitHub pour autoriser le push ! (Voir ici pour des informations sur la configuration de Git) (<a href="https://docs.github.com/en/get-started/quickstart/set-up-git">https://docs.github.com/en/get-started/quickstart/set-up-git</a>)</p>
+<p>De manière alternative, vous pouvez utiliser Netlify pour créer et déployer le blog. Pour cela, vous devez juste cliquer ici : <br/>
+!!! <a href="https://app.netlify.com/start/deploy?repository=https://github.com/ObsidianPublisher/obsidian-mkdocs-publisher-template">deploy to netlify “(https://www.netlify.com/img/deploy/button.svg)</a>“</p>
+<p>N’oubliez pas de configurer le fichier <code>mkdocs.yml</code> !</p>
+<div class="footnote">
+<hr/>
+<ol>
+<li id="fn:1">
+<p>Vous devez être connecté pour copier le template ! Vous pouvez tester localement par clone &gt; https : <code>git clone https://github.com/Mara-Li/mkdocs_obsidian_template.git</code> ou <a href="https://github.com/Mara-Li/mkdocs_obsidian_template/archive/refs/heads/main.zip">en téléchargeant le ZIP</a> <a class="footnote-backref" href="#fnref:1" title="Jump back to footnote 1 in the text">↩</a></p>
+</li>
+</ol>
+</div>
+<!-- Giscus -->
 <h2 id="__comments">Commentaires</h2>
 <script async="" crossorigin="anonymous" data-category-id="DIC_kwDOGlyxGM4CQMx1" data-emit-metadata="0" data-input-position="top" data-lang="fr" data-mapping="url" data-reactions-enabled="1" data-repo="mara-Li/Seed_Publish" data-repo-id="R_kgDOGlyxGA" data-theme="dark_dimmed" src="https://giscus.app/client.js">
 </script>
@@ -369,7 +460,7 @@ N'oubliez pas de configurer le fichier `mkdocs.yml` !
         })
     })
 </script>
-</p></p></article>
+</article>
 </div>
 </div>
 <a class="md-top md-icon" data-md-component="top" hidden="" href="#">
