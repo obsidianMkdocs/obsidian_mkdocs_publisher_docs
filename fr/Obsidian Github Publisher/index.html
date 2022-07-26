@@ -7,7 +7,7 @@
 <meta content="width=device-width,initial-scale=1" name="viewport"/>
 <meta content="The documentation for Obsidian Mkdocs Publisher" name="description"/>
 <link href="https://obsidian-publisher.netlify.app/fr/Obsidian%20Github%20Publisher/" rel="canonical"/>
-<link href="../../assets/logo/favicons.png" rel="icon"/>
+<link href="../../assets/meta/favicons.png" rel="icon"/>
 <meta content="mkdocs-1.3.1, mkdocs-material-8.3.9" name="generator"/>
 <title>Index - Obsidian Mkdocs Publisher</title>
 <link href="../../assets/stylesheets/main.1d29e8d0.min.css" rel="stylesheet"/>
@@ -15,10 +15,12 @@
 <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
 <link href="https://fonts.googleapis.com/css?family=Ubuntu:300,300i,400,400i,700,700i%7CUbuntu+Mono:400,400i,700,700i&amp;display=fallback" rel="stylesheet"/>
 <style>:root{--md-text-font:"Ubuntu";--md-code-font:"Ubuntu Mono"}</style>
-<link href="../../assets/css/img-grids-floats.css" rel="stylesheet"/>
-<link href="../../assets/css/utils.css" rel="stylesheet"/>
+<link href="../../assets/css/template/img-grids-floats.css" rel="stylesheet"/>
+<link href="../../assets/css/template/blog.css" rel="stylesheet"/>
 <link href="../../assets/css/custom_attributes.css" rel="stylesheet"/>
-<link href="../../assets/css/tooltipster.bundle.min.css" rel="stylesheet"/>
+<link href="../../assets/css/template/utils.css" rel="stylesheet"/>
+<link href="../../assets/css/highlight.css" rel="stylesheet"/>
+<link href="../../assets/css/template/tooltipster.bundle.min.css" rel="stylesheet"/>
 <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet"/>
 <script>__md_scope=new URL("../..",location),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
@@ -33,8 +35,8 @@
 <meta content="The documentation for Obsidian Mkdocs Publisher" name="og:description"/>
 <meta content="The documentation for Obsidian Mkdocs Publisher" name="twitter:description"/>
 <meta content="summary_large_image" name="twitter:card"/>
-<meta content="https://obsidian-publisher.netlify.app/" property="og:image"/>
-<meta content="https://obsidian-publisher.netlify.app/" name="twitter:image"/>
+<meta content="https://obsidian-publisher.netlify.app/assets/meta/LOGO_SEO.png" property="og:image"/>
+<meta content="https://obsidian-publisher.netlify.app/assets/meta/LOGO_SEO.png" name="twitter:image"/>
 </head>
 <body data-md-color-accent="light-blue" data-md-color-primary="teal" data-md-color-scheme="default" dir="ltr">
 <script>var palette=__md_get("__palette");if(palette&&"object"==typeof palette.color)for(var key of Object.keys(palette.color))document.body.setAttribute("data-md-color-"+key,palette.color[key])</script>
@@ -51,7 +53,7 @@
 <header class="md-header md-header--lifted" data-md-component="header">
 <nav aria-label="En-tête" class="md-header__inner md-grid">
 <a aria-label="Obsidian Mkdocs Publisher" class="md-header__button md-logo" data-md-component="logo" href="../.." title="Obsidian Mkdocs Publisher">
-<img alt="logo" src="../../assets/logo/favicons.png"/>
+<img alt="logo" src="../../assets/meta/favicons.png"/>
 </a>
 <label class="md-header__button md-icon" for="__drawer">
 <svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2Z"></path></svg>
@@ -90,12 +92,12 @@
 <div class="md-select__inner">
 <ul class="md-select__list">
 <li class="md-select__item">
-<a class="md-select__link" href="../../" hreflang="en">
+<a class="md-select__link" href="../../Obsidian%20Github%20Publisher/" hreflang="en">
                     English
                   </a>
 </li>
 <li class="md-select__item">
-<a class="md-select__link" href="../" hreflang="fr">
+<a class="md-select__link" href="./" hreflang="fr">
                     Français
                   </a>
 </li>
@@ -166,7 +168,7 @@
 <nav aria-label="Navigation" class="md-nav md-nav--primary md-nav--lifted" data-md-level="0">
 <label class="md-nav__title" for="__drawer">
 <a aria-label="Obsidian Mkdocs Publisher" class="md-nav__button md-logo" data-md-component="logo" href="../.." title="Obsidian Mkdocs Publisher">
-<img alt="logo" src="../../assets/logo/favicons.png"/>
+<img alt="logo" src="../../assets/meta/favicons.png"/>
 </a>
     Obsidian Mkdocs Publisher
   </label>
@@ -276,37 +278,27 @@
 <!-- TOC -->
 <ul>
 <li><a class="link-tooltip" data-tooltip-content="#Cequefaitleplugin_tooltip_id" href="./#ce-que-fait-le-plugin">Ce que fait le plugin</a></li>
-<li><a class="link-tooltip" data-tooltip-content="#Configuration_tooltip_id" href="./#configuration">Configuration</a><ul>
-<li><a class="link-tooltip" data-tooltip-content="#Exampledeconfiguration_tooltip_id" href="./#-example-de-configuration">➡️ Example de configuration</a></li>
+<li><a class="link-tooltip" data-tooltip-content="#Configuration_tooltip_id" href="./#configuration">Configuration</a></li>
+<li><a class="link-tooltip" data-tooltip-content="#Exampledeconfiguration_tooltip_id" href="./#example-de-configuration">Example de configuration</a></li>
 <li><a class="link-tooltip" data-tooltip-content="#GitHub_tooltip_id" href="./#github">GitHub</a></li>
-<li><a class="link-tooltip" data-tooltip-content="#Configurationdesenvoies_tooltip_id" href="./#configuration-des-envoies">Configuration des envoies</a><ul>
-<li><a class="link-tooltip" data-tooltip-content="#Dossiersderéceptions_tooltip_id" href="./#dossiers-de-r%C3%A9ceptions">Dossiers de réceptions</a><ul>
-<li><a class="link-tooltip" data-tooltip-content="#Blocdemétadonnées_tooltip_id" href="./#bloc-de-m%C3%A9tadonn%C3%A9es">Bloc de métadonnées</a></li>
-<li><a class="link-tooltip" data-tooltip-content="#Dossierfixé_tooltip_id" href="./#dossier-fix%C3%A9">Dossier fixé</a></li>
+<li><a class="link-tooltip" data-tooltip-content="#Configurationdelupload_tooltip_id" href="./#configuration-de-lupload">Configuration de l’upload</a><ul>
+<li><a class="link-tooltip" data-tooltip-content="#Dossiersderéceptions_tooltip_id" href="./#dossiers-de-réceptions">Dossiers de réceptions</a></li>
+<li><a class="link-tooltip" data-tooltip-content="#Blocdemétadonnées_tooltip_id" href="./#bloc-de-métadonnées">Bloc de métadonnées</a></li>
+<li><a class="link-tooltip" data-tooltip-content="#Dossierfixé_tooltip_id" href="./#dossier-fixé">Dossier fixé</a></li>
 <li><a class="link-tooltip" data-tooltip-content="#CheminObsidian_tooltip_id" href="./#chemin-obsidian">Chemin Obsidian</a></li>
-</ul>
-</li>
-<li><a class="link-tooltip" data-tooltip-content="#Workflow_tooltip_id" href="./#workflow">Workflow</a><ul>
+<li><a class="link-tooltip" data-tooltip-content="#Workflow_tooltip_id" href="./#workflow">Workflow</a></li>
 <li><a class="link-tooltip" data-tooltip-content="#Autonettoyage_tooltip_id" href="./#auto-nettoyage">Auto-nettoyage</a></li>
-</ul>
-</li>
-<li><a class="link-tooltip" data-tooltip-content="#Conversiondesliens_tooltip_id" href="./#conversion-des-liens">Conversion des liens</a><ul>
+<li><a class="link-tooltip" data-tooltip-content="#Conversiondesliens_tooltip_id" href="./#conversion-des-liens">Conversion des liens</a></li>
 <li><a class="link-tooltip" data-tooltip-content="#Indexfoldernote_tooltip_id" href="./#index--folder-note">Index &amp; folder note</a></li>
 <li><a class="link-tooltip" data-tooltip-content="#Lieninternes_tooltip_id" href="./#lien-internes">Lien internes</a></li>
 <li><a class="link-tooltip" data-tooltip-content="#LienWikilinksverslienmarkdown_tooltip_id" href="./#lien-wikilinks-vers-lien-markdown">Lien Wikilinks vers lien markdown</a></li>
+<li><a class="link-tooltip" data-tooltip-content="#Transclusionembed_tooltip_id" href="./#transclusion-embed">Transclusion (embed)</a></li>
 </ul>
 </li>
-<li><a class="link-tooltip" data-tooltip-content="#Transclusionembed_tooltip_id" href="./#transclusion-embed">Transclusion embed</a></li>
-</ul>
-</li>
-<li><a class="link-tooltip" data-tooltip-content="#Paramètresduplugin_tooltip_id" href="./#param%C3%A8tres-du-plugin">Paramètres du plugin</a></li>
-</ul>
-</li>
-<li><a class="link-tooltip" data-tooltip-content="#Développement_tooltip_id" href="./#-d%C3%A9veloppement">🤖 Développement</a><ul>
-<li><a class="link-tooltip" data-tooltip-content="#Général_tooltip_id" href="./#g%C3%A9n%C3%A9ral">Général</a></li>
+<li><a class="link-tooltip" data-tooltip-content="#Paramètresduplugin_tooltip_id" href="./#paramètres-du-plugin">Paramètres du plugin</a></li>
+<li><a class="link-tooltip" data-tooltip-content="#Développement_tooltip_id" href="./#développement">Développement</a></li>
+<li><a class="link-tooltip" data-tooltip-content="#Général_tooltip_id" href="./#général">Général</a></li>
 <li><a class="link-tooltip" data-tooltip-content="#Traduction_tooltip_id" href="./#traduction">Traduction</a></li>
-</ul>
-</li>
 </ul>
 <!-- /TOC -->
 <p>GitHub Publisher est un plugin qui vous aide à envoyer des fichiers dans un dépôt GitHub configuré, en fonction de l’état d’une clé de partage situé dans votre bloc de métadonnée (frontmatter).</p>
@@ -332,7 +324,7 @@ Ainsi, vous pouvez facilement revenir sur un commit, et créer un workflow basé
 <hr/>
 <h1 id="configuration">Configuration<a class="headerlink" href="#configuration" title="Permanent link">¶</a></h1>
 <p>Pour utiliser le plugin, vous devez remplir les informations correctes afin de pouvoir envoyer des fichiers dans un dépôt GitHub.</p>
-<h2 id="example-de-configuration">➡️ Example de configuration<a class="headerlink" href="#example-de-configuration" title="Permanent link">¶</a></h2>
+<h2 id="example-de-configuration">Example de configuration<a class="headerlink" href="#example-de-configuration" title="Permanent link">¶</a></h2>
 <p>Vous trouverez <a href="https://obsidian-publisher.netlify.appfr/Obsidian%20Github%20Publisher/configuration%20example/">ici</a> quelque exemple de configuration possible pour le plugin, comme par exemple Mkdocs Publisher ou <a href="https://github.com/TuanManhCao/digital-garden">@TuanManhCao Digital Garden</a>.</p>
 <div class="admonition note">
 <p class="admonition-title">Ajouter des exemples</p>
@@ -344,7 +336,7 @@ Ainsi, vous pouvez facilement revenir sur un commit, et créer un workflow basé
 <li>Pseudonyme GitHub: Votre pseudonyme.</li>
 <li>Token GitHub :  Obtenez votre <a href="https://github.com/settings/tokens/new?scopes=repo">Token GitHub ici</a><sup id="fnref:2"><a class="footnote-ref" href="#fn:2">2</a></sup>. Les paramètres corrects devraient déjà être appliqués. Si vous voulez éviter de générer ce jeton tous les quelques mois, sélectionnez l’option “No expiration”. Cliquez sur le bouton “Generate token”, et copiez le jeton qui vous est présenté sur la page suivante.</li>
 </ul>
-<h2 id="configuration-des-envoies">Configuration des envoies<a class="headerlink" href="#configuration-des-envoies" title="Permanent link">¶</a></h2>
+<h2 id="configuration-de-lupload">Configuration de l’upload<a class="headerlink" href="#configuration-de-lupload" title="Permanent link">¶</a></h2>
 <h3 id="dossiers-de-receptions">Dossiers de réceptions<a class="headerlink" href="#dossiers-de-receptions" title="Permanent link">¶</a></h3>
 <p>Vous avez trois possibilités : </p>
 <ul>
@@ -377,8 +369,8 @@ Ainsi, vous pouvez facilement revenir sur un commit, et créer un workflow basé
 <div class="admonition example">
 <p class="admonition-title">Par exemple</p>
 <ul>
-<li>Si vous définissez <code>source</code> pour le dossier par défaut, tout fichier sera envoyé dans <code>votre_repo/source</code>, quelque soit sa clé frontmatter ou son chemin relatif.<br/>
-Si vous le laissez vide, il sera envoyé directement dans <code>votre_repo</code>.</li>
+<li>Si vous définissez <code>source</code> pour le dossier par défaut, tout fichier sera envoyé dans <code>votre_repo/source</code>, quelque soit sa clé frontmatter ou son chemin relatif.</li>
+<li>Si vous le laissez vide, il sera envoyé directement dans <code>votre_repo</code>.</li>
 </ul>
 </div>
 <h4 id="chemin-obsidian">Chemin Obsidian<a class="headerlink" href="#chemin-obsidian" title="Permanent link">¶</a></h4>
@@ -478,7 +470,7 @@ Chemin créé : <code>../YY/mon_fichier.md</code>.</p>
 <p class="admonition-title">La commande du menu de clic droit peut aussi envoyer le fichier sous votre curseur si c’est un lien !</p>
 </div>
 <hr/>
-<h1 id="developpement">🤖 Développement<a class="headerlink" href="#developpement" title="Permanent link">¶</a></h1>
+<h1 id="developpement">Développement<a class="headerlink" href="#developpement" title="Permanent link">¶</a></h1>
 <h2 id="general">Général<a class="headerlink" href="#general" title="Permanent link">¶</a></h2>
 <p>Vous pouvez m’aider à développer le plugin en utilisant <code>npm</code> !</p>
 <ol>
@@ -598,7 +590,7 @@ Chemin créé : <code>../YY/mon_fichier.md</code>.</p>
 <div class="md-dialog" data-md-component="dialog">
 <div class="md-dialog__inner md-typeset"></div>
 </div>
-<script id="__config" type="application/json">{"base": "../..", "features": ["navigation.indexes", "navigation.top", "navigation.tabs", "navigation.tabs.sticky", "navigation.expand", "navigation.instant", "search.suggest", "search.highlight"], "search": "../../assets/javascripts/workers/search.b97dbffb.min.js", "translations": {"clipboard.copied": "Copi\u00e9 dans le presse-papier", "clipboard.copy": "Copier dans le presse-papier", "search.config.lang": "fr", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Rechercher", "search.result.more.one": "1 de plus sur cette page", "search.result.more.other": "# de plus sur cette page", "search.result.none": "Aucun document trouv\u00e9", "search.result.one": "1 document trouv\u00e9", "search.result.other": "# documents trouv\u00e9s", "search.result.placeholder": "Taper pour d\u00e9marrer la recherche", "search.result.term.missing": "Non trouv\u00e9", "select.version.title": "S\u00e9lectionner la version"}}</script>
+<script id="__config" type="application/json">{"base": "../..", "features": ["navigation.indexes", "navigation.top", "navigation.tabs", "navigation.tabs.sticky", "navigation.expand", "search.suggest", "search.highlight"], "search": "../../assets/javascripts/workers/search.b97dbffb.min.js", "translations": {"clipboard.copied": "Copi\u00e9 dans le presse-papier", "clipboard.copy": "Copier dans le presse-papier", "search.config.lang": "fr", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Rechercher", "search.result.more.one": "1 de plus sur cette page", "search.result.more.other": "# de plus sur cette page", "search.result.none": "Aucun document trouv\u00e9", "search.result.one": "1 document trouv\u00e9", "search.result.other": "# documents trouv\u00e9s", "search.result.placeholder": "Taper pour d\u00e9marrer la recherche", "search.result.term.missing": "Non trouv\u00e9", "select.version.title": "S\u00e9lectionner la version"}}</script>
 <script src="../../assets/javascripts/bundle.6c7ad80a.min.js"></script>
 <script src="../../assets/js/mathjax.js"></script>
 <script src="../../assets/js/utils.js"></script>
@@ -610,29 +602,63 @@ Chemin créé : <code>../YY/mon_fichier.md</code>.</p>
 <p>Mais le plugin peut faire beaucoup plus !</p>
 <li>Convertir des wikilinks en liens markdown (sans modifier votre fichier)</li>
 <li>Activez une action GitHub qui a un événement <code>workflow_dispatche</code>.</li>
-<li>Convertir les liens…</li></div></div><div class="tooltip_templates"><div id="Configuration_tooltip_id"><p>Pour utiliser le plugin, vous devez remplir les informations correctes afin de pouvoir envoyer des fichiers dans un dépôt GitHub.</p>
-<p>Vous trouverez <a href="https://obsidian-publisher.netlify.appfr/Obsidian%20Github%20Publisher/configuration%20example/">ici</a> quelque exemple de configuration possible pour le plugin, comme par exemple Mkdocs Publisher ou [@Tuan…</p></div></div><div class="tooltip_templates"><div id="Exampledeconfiguration_tooltip_id"></div></div><div class="tooltip_templates"><div id="GitHub_tooltip_id"><li>Nom du dépôt : Le dépôt dans lequel les fichiers seront envoyés</li>
+<li>Convertir les liens internes en fonction de la configuration.</li>
+<li>Nettoyer votre repo en supprimant les fichiers supprimé…</li></div></div><div class="tooltip_templates"><div id="Configuration_tooltip_id"><p>Pour utiliser le plugin, vous devez remplir les informations correctes afin de pouvoir envoyer des fichiers dans un dépôt GitHub.</p>
+<p>Vous trouverez <a href="https://obsidian-publisher.netlify.appfr/Obsidian%20Github%20Publisher/configuration%20example/">ici</a> quelque exemple de configuration possible pour le plugin, comme par exemple Mkdocs Publisher ou <a href="https://github.com/TuanManhCao/digital-garden">@TuanManhCao Digital Garden</a>.</p>
+<p>!!! note “Ajouter des exemples…</p></div></div><div class="tooltip_templates"><div id="Exampledeconfiguration_tooltip_id"><p>Vous trouverez <a href="https://obsidian-publisher.netlify.appfr/Obsidian%20Github%20Publisher/configuration%20example/">ici</a> quelque exemple de configuration possible pour le plugin, comme par exemple Mkdocs Publisher ou <a href="https://github.com/TuanManhCao/digital-garden">@TuanManhCao Digital Garden</a>.</p>
+<p class="admonition-title">Ajouter des exemples</p>
+<p>Il est tout à fait possible de m’envoyer ou de pull-request de nouvelles configurations pour d’autres alternatives <strong>gratuites</strong> à Obsidian Publi…</p></div></div><div class="tooltip_templates"><div id="GitHub_tooltip_id"><li>Nom du dépôt : Le dépôt dans lequel les fichiers seront envoyés</li>
 <li>Pseudonyme GitHub: Votre pseudonyme.</li>
-<li>Token GitHub :  Obtenez votre <a href="https://github.com/settings/tokens/new?scopes=repo">Token GitHub ici</a>[^2]. Les paramètres corrects devraient déjà être appliqués. Si vous voulez éviter de générer ce jeton tous les quelques mois, sélectionnez l’option “No expiration”. Cliquez sur le b…</li></div></div><div class="tooltip_templates"><div id="Configurationdesenvoies_tooltip_id"><p>Vous avez trois possibilités : </p>
+<li>Token GitHub :  Obtenez votre <a href="https://github.com/settings/tokens/new?scopes=repo">Token GitHub ici</a>[^2]. Les paramètres corrects devraient déjà être appliqués. Si vous voulez éviter de générer ce jeton tous les quelques mois, sélectionnez l’option “No expiration”. Cliquez sur le bouton “Generate token”, et copiez le jeton qui vous est présenté sur la page suivante.</li></div></div><div class="tooltip_templates"><div id="Configurationdelupload_tooltip_id"></div></div><div class="tooltip_templates"><div id="Dossiersderéceptions_tooltip_id"><p>Vous avez trois possibilités : </p>
 <li>Utiliser un dossier “fixe” : Chaque fichier sera envoyé dans ce dossier. </li>
 <li>Utiliser un dossier créé à partir d’une clé <code>category</code>.</li>
 <li>Utiliser le chemin relatif depuis obsidian. Vous pouvez préfixer un dossier en utilisant le dossier par défaut. </li>
-<p>Vous devez, dans tous les cas, configurer le **dossier par dé…</p></div></div><div class="tooltip_templates"><div id="Dossiersderéceptions_tooltip_id"></div></div><div class="tooltip_templates"><div id="Blocdemétadonnées_tooltip_id"></div></div><div class="tooltip_templates"><div id="Dossierfixé_tooltip_id"></div></div><div class="tooltip_templates"><div id="CheminObsidian_tooltip_id"><p>Il utilise le chemin relatif dans votre coffre-fort Obsidian. Le dossier par défaut sera ajouté avant le chemin relatif d’Obsidian. Vous pouvez le laisser vide pour utiliser la racine de votre dépôt.</p>
-<p>[!example] Par exemple<br/>
-Pour un fichier dans <code>20. Compendium/DND/Créature</code><br/>
-- Si vous définissez <code>source</code> : le chemin final sera <code>source/20. Compendium/DND/Créature</code>.<br/>
-- Si …</p></div></div><div class="tooltip_templates"><div id="Workflow_tooltip_id"><p>Si votre workflow doit activer une action GitHub, définissez le nom ici. </p>
+<p>Vous devez, dans tous les cas, configurer le <strong>dossier par défaut</strong> :  Le fichier sera envoyé ici.</p>
+<p>Si vous utilisez l’option pour frontmatter, ce dossier sera le dossier par défaut : le fic…</p></div></div><div class="tooltip_templates"><div id="Blocdemétadonnées_tooltip_id"><p>L’utilisation de la deuxième option activera deux autres options : </p>
+<li>La clé de catégorie : La clé que vous souhaitez utiliser pour votre dossier.</li>
+<li>Dossier racine : Pour ajouter un chemin d’accès <strong>avant</strong> la clé de catégorie trouvée (si une clé est trouvée !).</li>
+<p class="admonition-title">Par exemple</p>
+<li>Vous utilisez <code>category</code> dans un fichier avec <code>category : JDR/Personnages/DND</code></li>
+<li>Vous définissez un dossier racine avec <code>_docs/pages</code>.  </li>
+<li>Vous définissez un dossier par défaut su…</li></div></div><div class="tooltip_templates"><div id="Dossierfixé_tooltip_id"><p>Chaque fichier sera envoyé dans le dossier par défaut. Si vous laissez le dossier par défaut vide, il sera envoyé à la racine du dépôt. </p>
+<p class="admonition-title">Par exemple</p>
+<li>Si vous définissez <code>source</code> pour le dossier par défaut, tout fichier sera envoyé dans <code>votre_repo/source</code>, quelque soit sa clé frontmatter ou son chemin relatif.</li>
+<li>Si vous le laissez vide, il sera envoyé directement dans <code>votre_repo</code>.</li></div></div><div class="tooltip_templates"><div id="CheminObsidian_tooltip_id"><p>Il utilise le chemin relatif dans votre coffre-fort Obsidian. Le dossier par défaut sera ajouté avant le chemin relatif d’Obsidian. Vous pouvez le laisser vide pour utiliser la racine de votre dépôt.</p>
+<p class="admonition-title">Par exemple</p>
+<p>Pour un fichier dans <code>20. Compendium/DND/Créature</code></p>
+<li>Si vous définissez <code>source</code> : le chemin final sera <code>source/20. Compendium/DND/Créature</code>.</li>
+<li>Si vous laissez le dossier par défaut vide, le chemin final sera <code>20. Compendium/DND/Créature</code></li>
+<p>La `suppr…</p></div></div><div class="tooltip_templates"><div id="Workflow_tooltip_id"><p>Si votre workflow doit activer une action GitHub, définissez le nom ici. </p>
 <p>Laissez-le vide pour désactiver l’activation des actions GitHub.</p>
 <p>Vous pouvez également configurer une “suppression automatique” lorsque vous utilisez les commandes pour supprimer des fichiers :</p>
 <li>Supprimés de votre coffre-fort</li>
 <li>Que vous avez cessé de partager</li>
-<p>Cette option ajoutera égal…</p></div></div><div class="tooltip_templates"><div id="Autonettoyage_tooltip_id"></div></div><div class="tooltip_templates"><div id="Conversiondesliens_tooltip_id"><p>[!note] Ces paramètres ne modifieront pas le contenu de votre fichier dans votre coffre-fort.</p>
-<p>Certaines solutions de publication prennent en charge les notes de dossier, mais ces notes doivent être nommées <code>index</code>. Si vous utilisez <a href="https://github.com/aidenlx/alx-folder-note">Folder Note</a> avec [les stratégies <code>same name</code>](https://github.com/ai…</p></div></div><div class="tooltip_templates"><div id="Indexfoldernote_tooltip_id"></div></div><div class="tooltip_templates"><div id="Lieninternes_tooltip_id"><p>Cette option convertira les liens internes (y compris les liens d’image !) du fichier partagé pour correspondre au fichier relatif dans votre dépôt. Seuls les chemins de fichier <strong>existant</strong> et <strong>partagé</strong> seront convertis.</p>
-<p>[!exemple] <br/>
-Fichier cité : <code>docs/XX/YY/mon_fichier.md</code>.<br/>
+<p>Cette option ajoutera également une nouvelle commande pour nettoyer les fichiers uniquement.</p>
+<p class="admonition-title">Attention</p>
+<p>Vous ne…</p></div></div><div class="tooltip_templates"><div id="Autonettoyage_tooltip_id"></div></div><div class="tooltip_templates"><div id="Conversiondesliens_tooltip_id"><p class="admonition-title">Ces paramètres ne modifieront pas le contenu de votre fichier dans votre coffre-fort.</p>
+<p>Certaines solutions de publication prennent en charge les notes de dossier, mais ces notes doivent être nommées <code>index</code>. Si vous utilisez <a href="https://github.com/aidenlx/alx-folder-note">Folder Note</a> avec <a href="https://github.com/aidenlx/alx-folder-note/wiki/folder-note-pref">les stratégies <code>same name</code></a>, vous aurez un problème, non ? Par chance, j’ai une so…</p></div></div><div class="tooltip_templates"><div id="Indexfoldernote_tooltip_id"></div></div><div class="tooltip_templates"><div id="Lieninternes_tooltip_id"><p>Cette option convertira les liens internes (y compris les liens d’image !) du fichier partagé pour correspondre au fichier relatif dans votre dépôt. Seuls les chemins de fichier <strong>existant</strong> et <strong>partagé</strong> seront convertis.</p>
+<p class="admonition-title">Exemple</p>
+<p>Fichier cité : <code>docs/XX/YY/mon_fichier.md</code>.<br/>
 Fichier à convertir : <code>docs/XX/ZZ/new_file.md</code>.<br/>
-Chemin créé : <code>../YY/mon_fichier.md</code>.</p></div></div><div class="tooltip_templates"><div id="LienWikilinksverslienmarkdown_tooltip_id"><p>Si vous utilisez des wikilinks quotidiennement mais que votre alternative à Obsidian Publish ne le supporte pas, vous pouvez utiliser ces paramètres pour convertir les wikilink en lien markdown. </p></div></div><div class="tooltip_templates"><div id="Transclusionembed_tooltip_id"></div></div><div class="tooltip_templates"><div id="Paramètresduplugin_tooltip_id"></div></div><div class="tooltip_templates"><div id="Développement_tooltip_id"></div></div><div class="tooltip_templates"><div id="Général_tooltip_id"></div></div><div class="tooltip_templates"><div id="Traduction_tooltip_id"><p>En utilisant <a href="https://www.i18next.com/">i18n</a>, vous pouvez traduire le plugin. </p>
+Chemin créé : <code>../YY/mon_fichier.md</code>.</p></div></div><div class="tooltip_templates"><div id="LienWikilinksverslienmarkdown_tooltip_id"><p>Si vous utilisez des wikilinks quotidiennement mais que votre alternative à Obsidian Publish ne le supporte pas, vous pouvez utiliser ces paramètres pour convertir les wikilink en lien markdown. </p></div></div><div class="tooltip_templates"><div id="Transclusionembed_tooltip_id"></div></div><div class="tooltip_templates"><div id="Paramètresduplugin_tooltip_id"><p>Vous pouvez configurer :</p>
+<li>La clé de partage utilisée par le plugin. Par défaut, c’est <code>share</code>.</li>
+<li>Les dossiers exclus. La clé de partage ne peut pas fonctionner ici. Utile si vous oubliez de supprimer le <code>share</code> (ou de le mettre à <code>false</code>) et que vous déplacez un fichier dans votre archive…</li>
+<li>Ajoutez la commande pour partager le fichier dans le menu fichier (clic droit sur un fichier dans l’explorateur ou en utilisant les trois points) et dans le menu éditeur (clic dro…</li></div></div><div class="tooltip_templates"><div id="Développement_tooltip_id"><p>Vous pouvez m’aider à développer le plugin en utilisant <code>npm</code> !</p>
+<li>Tout d’abord, clonez le projet sur votre ordinateur avec <code>git clone git@github.com:obsidianPublisher/obsidian-github-publisher.git</code>.</li>
+<li><code>cd obsidian-github-publisher</code>.</li>
+<li><code>npm install</code></li>
+<p>Quelque notes :</p>
+<li>J’utilise les <a href="https://www.conventionalcommits.org/en/v1.0.0/">Conventional Commit</a> pour générer le changelog, donc merci de respectez les spécifications !</li>
+<li>De documenter les fonctions que vous crée…</li></div></div><div class="tooltip_templates"><div id="Général_tooltip_id"><p>Vous pouvez m’aider à développer le plugin en utilisant <code>npm</code> !</p>
+<li>Tout d’abord, clonez le projet sur votre ordinateur avec <code>git clone git@github.com:obsidianPublisher/obsidian-github-publisher.git</code>.</li>
+<li><code>cd obsidian-github-publisher</code>.</li>
+<li><code>npm install</code></li>
+<p>Quelque notes :</p>
+<li>J’utilise les <a href="https://www.conventionalcommits.org/en/v1.0.0/">Conventional Commit</a> pour générer le changelog, donc merci de respectez les spécifications !</li>
+<li>De documenter les fonctions que vous créez. </li></div></div><div class="tooltip_templates"><div id="Traduction_tooltip_id"><p>En utilisant <a href="https://www.i18next.com/">i18n</a>, vous pouvez traduire le plugin. </p>
 <p>Pour ajouter un nouveau langage :</p>
 <li>Clonez le fichier <code>i18n/locales/en-us.ts</code> et renommez-le dans votre langue.</li>
-<li>Obtenez votre langue locale depuis Obsidian en utilisant <a href="https://github.com/obsidianmd/obsidian-translations">obsidian translation</a> ou en utilisant les commandes (dans templater par exemple…</li></div></div></body>
+<li>Obtenez votre langue locale depuis Obsidian en utilisant <a href="https://github.com/obsidianmd/obsidian-translations">obsidian translation</a> ou en utilisant les commandes (dans templater par exemple) : <code>&lt;% tp.obsidian.moment.locale() %&gt;</code> </li>
+<li>Traduisez le fichier et enregistrez-le.</li>
+<li>Dans `i18n/inde…</li></div></div></body>
 </html>
